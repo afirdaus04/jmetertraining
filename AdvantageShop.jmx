@@ -12,16 +12,41 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="CSV_Path" elementType="Argument">
+            <stringProp name="Argument.name">CSV_Path</stringProp>
+            <stringProp name="Argument.value">C:\Users\User\Desktop\Work\GithubStorage\jmetertraining\AdvantageAcc.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="BP_User" elementType="Argument">
+            <stringProp name="Argument.name">BP_User</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="BP_RU" elementType="Argument">
+            <stringProp name="Argument.name">BP_RU</stringProp>
+            <stringProp name="Argument.value">15</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="BP_Duration" elementType="Argument">
+            <stringProp name="Argument.name">BP_Duration</stringProp>
+            <stringProp name="Argument.value">600</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${BP_User}</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${BP_RU}</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.duration">${BP_duration}</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
@@ -86,7 +111,7 @@
           <boolProp name="recycle">true</boolProp>
           <stringProp name="shareMode">shareMode.all</stringProp>
           <boolProp name="stopThread">false</boolProp>
-          <stringProp name="variableNames"></stringProp>
+          <stringProp name="variableNames">username,password</stringProp>
         </CSVDataSet>
         <hashTree/>
         <RecordingController guiclass="RecordController" testclass="RecordingController" testname="Recording Controller" enabled="true"/>
@@ -99,6 +124,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">laptops</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -3330,7 +3356,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;AccountLoginRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;email&gt;&lt;/email&gt;&lt;loginPassword&gt;Afmd1234&lt;/loginPassword&gt;&lt;loginUser&gt;afmdtest1&lt;/loginUser&gt;&lt;/AccountLoginRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</stringProp>
+                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;AccountLoginRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;email&gt;&lt;/email&gt;&lt;loginPassword&gt;${password}&lt;/loginPassword&gt;&lt;loginUser&gt;${username}&lt;/loginUser&gt;&lt;/AccountLoginRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -3415,27 +3441,36 @@
               </collectionProp>
             </HeaderManager>
             <hashTree/>
+            <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+              <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+              <stringProp name="RegexExtractor.refname">userID</stringProp>
+              <stringProp name="RegexExtractor.regex">&lt;ns2:userId&gt;(.*?)&lt;\/ns2:userId&gt;</stringProp>
+              <stringProp name="RegexExtractor.template">$1$</stringProp>
+              <stringProp name="RegexExtractor.default"></stringProp>
+              <stringProp name="RegexExtractor.match_number"></stringProp>
+            </RegexExtractor>
+            <hashTree/>
           </hashTree>
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
                 <stringProp name="Authorization.url">https://advantageonlineshopping.com/order/api/v1/carts/</stringProp>
-                <stringProp name="Authorization.username">afmdtest1</stringProp>
-                <stringProp name="Authorization.password">Afmd1234</stringProp>
+                <stringProp name="Authorization.username">${username}</stringProp>
+                <stringProp name="Authorization.password">${password}</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
                 <stringProp name="Authorization.realm"></stringProp>
               </elementProp>
               <elementProp name="" elementType="Authorization">
                 <stringProp name="Authorization.url">https://advantageonlineshopping.com/order/api/v1/carts/800075438/product/20/color/</stringProp>
-                <stringProp name="Authorization.username">afmdtest1</stringProp>
-                <stringProp name="Authorization.password">Afmd1234</stringProp>
+                <stringProp name="Authorization.username">${username}</stringProp>
+                <stringProp name="Authorization.password">${password}</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
                 <stringProp name="Authorization.realm"></stringProp>
               </elementProp>
               <elementProp name="" elementType="Authorization">
                 <stringProp name="Authorization.url">https://advantageonlineshopping.com/order/api/v1/orders/users/</stringProp>
-                <stringProp name="Authorization.username">afmdtest1</stringProp>
-                <stringProp name="Authorization.password">Afmd1234</stringProp>
+                <stringProp name="Authorization.username">${username}</stringProp>
+                <stringProp name="Authorization.password">${password}</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
                 <stringProp name="Authorization.realm"></stringProp>
               </elementProp>
@@ -3451,7 +3486,7 @@
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/order/api/v1/carts/800075438</stringProp>
+            <stringProp name="HTTPSampler.path">/order/api/v1/carts/${userID}</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5051,7 +5086,7 @@
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/order/api/v1/carts/800075438/product/20/color/414141?quantity=1</stringProp>
+            <stringProp name="HTTPSampler.path">/order/api/v1/carts/${userID}/product/20/color/414141?quantity=1</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5128,7 +5163,7 @@
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/order/api/v1/carts/800075438</stringProp>
+            <stringProp name="HTTPSampler.path">/order/api/v1/carts/${userID}</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5402,7 +5437,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;GetAccountByIdRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;accountId&gt;800075438&lt;/accountId&gt;&lt;base64Token&gt;Basic YWZtZHRlc3QxOkFmbWQxMjM0&lt;/base64Token&gt;&lt;/GetAccountByIdRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</stringProp>
+                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;GetAccountByIdRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;accountId&gt;${userID}&lt;/accountId&gt;&lt;base64Token&gt;Basic YWZtZHRlc3QxOkFmbWQxMjM0&lt;/base64Token&gt;&lt;/GetAccountByIdRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -5494,7 +5529,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;GetAccountByIdNewRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;accountId&gt;800075438&lt;/accountId&gt;&lt;base64Token&gt;Basic YWZtZHRlc3QxOkFmbWQxMjM0&lt;/base64Token&gt;&lt;/GetAccountByIdNewRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</stringProp>
+                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;GetAccountByIdNewRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;accountId&gt;${userID}&lt;/accountId&gt;&lt;base64Token&gt;Basic YWZtZHRlc3QxOkFmbWQxMjM0&lt;/base64Token&gt;&lt;/GetAccountByIdNewRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -5588,7 +5623,7 @@
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/order/api/v1/carts/800075438</stringProp>
+            <stringProp name="HTTPSampler.path">/order/api/v1/carts/${userID}</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5655,7 +5690,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;seaddress&quot;:{&quot;addressLine1&quot;:&quot;&quot;,&quot;addressLine2&quot;:&quot;&quot;,&quot;city&quot;:&quot;&quot;,&quot;country&quot;:&quot;um&quot;,&quot;postalCode&quot;:&quot;&quot;,&quot;state&quot;:&quot;&quot;},&quot;secustomerName&quot;:&quot;afmdtest1 &quot;,&quot;secustomerPhone&quot;:&quot;&quot;,&quot;senumberOfProducts&quot;:1,&quot;setransactionType&quot;:&quot;SHIPPING_COST&quot;,&quot;sessionId&quot;:&quot;95F35C6859566ADCB8D23DD0BE0F293D&quot;}</stringProp>
+                  <stringProp name="Argument.value">{&quot;seaddress&quot;:{&quot;addressLine1&quot;:&quot;&quot;,&quot;addressLine2&quot;:&quot;&quot;,&quot;city&quot;:&quot;&quot;,&quot;country&quot;:&quot;um&quot;,&quot;postalCode&quot;:&quot;&quot;,&quot;state&quot;:&quot;&quot;},&quot;secustomerName&quot;:&quot;${username} &quot;,&quot;secustomerPhone&quot;:&quot;&quot;,&quot;senumberOfProducts&quot;:1,&quot;setransactionType&quot;:&quot;SHIPPING_COST&quot;,&quot;sessionId&quot;:&quot;95F35C6859566ADCB8D23DD0BE0F293D&quot;}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -5739,7 +5774,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;GetAccountPaymentPreferencesRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;accountId&gt;800075438&lt;/accountId&gt;&lt;base64Token&gt;Basic YWZtZHRlc3QxOkFmbWQxMjM0&lt;/base64Token&gt;&lt;/GetAccountPaymentPreferencesRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</stringProp>
+                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;GetAccountPaymentPreferencesRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;accountId&gt;${userID}&lt;/accountId&gt;&lt;base64Token&gt;Basic YWZtZHRlc3QxOkFmbWQxMjM0&lt;/base64Token&gt;&lt;/GetAccountPaymentPreferencesRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -6336,7 +6371,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;UpdateSafePayMethodRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;userId&gt;800075438&lt;/userId&gt;&lt;safePayUsername&gt;afmd1&lt;/safePayUsername&gt;&lt;safePayPassword&gt;daa279818fa7&lt;/safePayPassword&gt;&lt;referenceId&gt;1234567890&lt;/referenceId&gt;&lt;base64Token&gt;Basic YWZtZHRlc3QxOkFmbWQxMjM0&lt;/base64Token&gt;&lt;/UpdateSafePayMethodRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</stringProp>
+                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;UpdateSafePayMethodRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;userId&gt;${userID}&lt;/userId&gt;&lt;safePayUsername&gt;afmd1&lt;/safePayUsername&gt;&lt;safePayPassword&gt;daa279818fa7&lt;/safePayPassword&gt;&lt;referenceId&gt;1234567890&lt;/referenceId&gt;&lt;base64Token&gt;Basic YWZtZHRlc3QxOkFmbWQxMjM0&lt;/base64Token&gt;&lt;/UpdateSafePayMethodRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -6428,7 +6463,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;orderPaymentInformation&quot;:{&quot;Transaction_AccountNumber&quot;:&quot;843200971&quot;,&quot;Transaction_Currency&quot;:&quot;USD&quot;,&quot;Transaction_CustomerPhone&quot;:&quot;&quot;,&quot;Transaction_MasterCredit_CVVNumber&quot;:&quot;&quot;,&quot;Transaction_MasterCredit_CardNumber&quot;:&quot;4886&quot;,&quot;Transaction_MasterCredit_CustomerName&quot;:&quot;&quot;,&quot;Transaction_MasterCredit_ExpirationDate&quot;:&quot;122027&quot;,&quot;Transaction_PaymentMethod&quot;:&quot;SafePay&quot;,&quot;Transaction_ReferenceNumber&quot;:0,&quot;Transaction_SafePay_Password&quot;:&quot;daa279818fa72e4d5b91ad02376f4d0a15e11800&quot;,&quot;Transaction_SafePay_UserName&quot;:&quot;afmd1&quot;,&quot;Transaction_TransactionDate&quot;:&quot;17102022&quot;,&quot;Transaction_Type&quot;:&quot;PAYMENT&quot;},&quot;orderShippingInformation&quot;:{&quot;Shipping_Address_Address&quot;:&quot;&quot;,&quot;Shipping_Address_City&quot;:&quot;&quot;,&quot;Shipping_Address_CountryCode&quot;:40,&quot;Shipping_Address_CustomerName&quot;:&quot;afmdtest1 &quot;,&quot;Shipping_Address_CustomerPhone&quot;:&quot;&quot;,&quot;Shipping_Address_PostalCode&quot;:&quot;&quot;,&quot;Shipping_Address_State&quot;:&quot;&quot;,&quot;Shipping_Cost&quot;:269.99,&quot;Shipping_NumberOfProducts&quot;:1,&quot;Shipping_TrackingNumber&quot;:0},&quot;purchasedProducts&quot;:[{&quot;hexColor&quot;:&quot;414141&quot;,&quot;productId&quot;:20,&quot;quantity&quot;:1,&quot;hasWarranty&quot;:false}]}</stringProp>
+                  <stringProp name="Argument.value">{&quot;orderPaymentInformation&quot;:{&quot;Transaction_AccountNumber&quot;:&quot;843200971&quot;,&quot;Transaction_Currency&quot;:&quot;USD&quot;,&quot;Transaction_CustomerPhone&quot;:&quot;&quot;,&quot;Transaction_MasterCredit_CVVNumber&quot;:&quot;&quot;,&quot;Transaction_MasterCredit_CardNumber&quot;:&quot;4886&quot;,&quot;Transaction_MasterCredit_CustomerName&quot;:&quot;&quot;,&quot;Transaction_MasterCredit_ExpirationDate&quot;:&quot;122027&quot;,&quot;Transaction_PaymentMethod&quot;:&quot;SafePay&quot;,&quot;Transaction_ReferenceNumber&quot;:0,&quot;Transaction_SafePay_Password&quot;:&quot;daa279818fa72e4d5b91ad02376f4d0a15e11800&quot;,&quot;Transaction_SafePay_UserName&quot;:&quot;afmd1&quot;,&quot;Transaction_TransactionDate&quot;:&quot;17102022&quot;,&quot;Transaction_Type&quot;:&quot;PAYMENT&quot;},&quot;orderShippingInformation&quot;:{&quot;Shipping_Address_Address&quot;:&quot;&quot;,&quot;Shipping_Address_City&quot;:&quot;&quot;,&quot;Shipping_Address_CountryCode&quot;:40,&quot;Shipping_Address_CustomerName&quot;:&quot;${username} &quot;,&quot;Shipping_Address_CustomerPhone&quot;:&quot;&quot;,&quot;Shipping_Address_PostalCode&quot;:&quot;&quot;,&quot;Shipping_Address_State&quot;:&quot;&quot;,&quot;Shipping_Cost&quot;:269.99,&quot;Shipping_NumberOfProducts&quot;:1,&quot;Shipping_TrackingNumber&quot;:0},&quot;purchasedProducts&quot;:[{&quot;hexColor&quot;:&quot;414141&quot;,&quot;productId&quot;:20,&quot;quantity&quot;:1,&quot;hasWarranty&quot;:false}]}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -6437,7 +6472,7 @@
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/order/api/v1/orders/users/800075438</stringProp>
+            <stringProp name="HTTPSampler.path">/order/api/v1/orders/users/${userID}</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -6514,7 +6549,7 @@
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/order/api/v1/carts/800075438</stringProp>
+            <stringProp name="HTTPSampler.path">/order/api/v1/carts/${userID}</stringProp>
             <stringProp name="HTTPSampler.method">DELETE</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -7098,7 +7133,7 @@ authorization: SAPISIDHASH 1665988555_ed5ec76fd5e500a8a0b317a82e3b67a20e2a8243_u
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;AccountLogoutRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;loginUser&gt;800075438&lt;/loginUser&gt;&lt;base64Token&gt;Basic YWZtZHRlc3QxOkFmbWQxMjM0&lt;/base64Token&gt;&lt;/AccountLogoutRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</stringProp>
+                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;AccountLogoutRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;loginUser&gt;${userID}&lt;/loginUser&gt;&lt;base64Token&gt;Basic YWZtZHRlc3QxOkFmbWQxMjM0&lt;/base64Token&gt;&lt;/AccountLogoutRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
