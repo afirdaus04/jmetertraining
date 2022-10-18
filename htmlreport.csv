@@ -1,0 +1,474 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1666055317858,1821,/catalog/fetchImage-34,200,,Thread Group 1-1,bin,true,,48262,635,1,1,https://advantageonlineshopping.com/catalog/fetchImage?image_id=laptops,1584,0,986
+1666055319683,684,/catalog/fetchImage-33,200,,Thread Group 1-1,bin,true,,64297,635,1,1,https://advantageonlineshopping.com/catalog/fetchImage?image_id=tablets,361,0,0
+1666055320367,293,/catalog/fetchImage-37,200,,Thread Group 1-1,bin,true,,60534,638,1,1,https://advantageonlineshopping.com/catalog/fetchImage?image_id=headphones,290,0,0
+1666055320666,301,/catalog/fetchImage-36,200,,Thread Group 1-1,bin,true,,92142,632,2,2,https://advantageonlineshopping.com/catalog/fetchImage?image_id=mice,299,0,0
+1666055320969,310,/catalog/fetchImage-35,200,,Thread Group 1-1,bin,true,,229421,636,2,2,https://advantageonlineshopping.com/catalog/fetchImage?image_id=speakers,303,0,0
+1666055321280,299,/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff-39,200,,Thread Group 1-1,text,true,,25203,651,2,2,https://advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff,298,0,0
+1666055321579,308,Launch/-41,200,,Thread Group 1-1,text,true,,3264,671,2,2,https://advantageonlineshopping.com/,307,0,0
+1666055320699,1493,/catalog/fetchImage-34,200,,Thread Group 1-2,bin,true,,48262,635,2,2,https://advantageonlineshopping.com/catalog/fetchImage?image_id=laptops,1186,0,587
+1666055321888,309,Launch/css/images/Down_arrow.svg-44,200,,Thread Group 1-1,text,true,,1195,625,2,2,https://advantageonlineshopping.com/css/images/Down_arrow.svg,309,0,0
+1666055322198,310,Launch/vendor/requirejs/require.js-43,200,,Thread Group 1-1,text,true,,21486,567,2,2,https://advantageonlineshopping.com/vendor/requirejs/require.js,308,0,0
+1666055322194,624,/catalog/fetchImage-33,200,,Thread Group 1-2,bin,true,,64297,635,2,2,https://advantageonlineshopping.com/catalog/fetchImage?image_id=tablets,310,0,0
+1666055322510,310,Launch/css/main.min.css-42,200,,Thread Group 1-1,text,true,,30595,570,2,2,https://advantageonlineshopping.com/css/main.min.css,309,0,0
+1666055322818,303,/catalog/fetchImage-37,200,,Thread Group 1-2,bin,true,,60534,638,2,2,https://advantageonlineshopping.com/catalog/fetchImage?image_id=headphones,297,0,0
+1666055322821,304,Launch/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff-50,200,,Thread Group 1-1,text,true,,25415,657,2,2,https://advantageonlineshopping.com/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff,303,0,0
+1666055323122,308,/catalog/fetchImage-36,200,,Thread Group 1-2,bin,true,,92133,632,2,2,https://advantageonlineshopping.com/catalog/fetchImage?image_id=mice,303,0,0
+1666055323125,582,Launch/main.min.js-49,200,,Thread Group 1-1,text,true,,268993,551,3,3,https://advantageonlineshopping.com/main.min.js,300,0,0
+1666055323431,645,/catalog/fetchImage-35,200,,Thread Group 1-2,bin,true,,229404,636,3,3,https://advantageonlineshopping.com/catalog/fetchImage?image_id=speakers,273,0,0
+1666055323707,370,Launch/services.properties-52,200,,Thread Group 1-1,,true,,1378,555,3,3,https://advantageonlineshopping.com/services.properties,370,0,0
+1666055324076,302,/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff-39,200,,Thread Group 1-2,text,true,,25203,651,3,3,https://advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff,301,0,0
+1666055324077,302,Launch/css/images/closeDark.png-57,200,,Thread Group 1-1,bin,true,,1496,624,3,3,https://advantageonlineshopping.com/css/images/closeDark.png,302,0,0
+1666055324378,254,Launch/-41,200,,Thread Group 1-2,text,true,,3264,671,3,3,https://advantageonlineshopping.com/,254,0,0
+1666055324380,256,Launch/css/images/logo.png-56,200,,Thread Group 1-1,bin,true,,3043,619,3,3,https://advantageonlineshopping.com/css/images/logo.png,256,0,0
+1666055324633,329,Launch/css/images/Down_arrow.svg-44,200,,Thread Group 1-2,text,true,,1195,625,3,3,https://advantageonlineshopping.com/css/images/Down_arrow.svg,329,0,0
+1666055324638,328,Launch/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL-55,200,,Thread Group 1-1,text,true,,6981,617,3,3,https://advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL,328,0,0
+1666055323687,1608,/catalog/fetchImage-34,200,,Thread Group 1-3,bin,true,,48262,635,3,3,https://advantageonlineshopping.com/catalog/fetchImage?image_id=laptops,1273,0,688
+1666055324967,330,Launch/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff-53,200,,Thread Group 1-1,text,true,,24971,653,3,3,https://advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff,330,0,0
+1666055324963,341,Launch/vendor/requirejs/require.js-43,200,,Thread Group 1-2,text,true,,21493,567,3,3,https://advantageonlineshopping.com/vendor/requirejs/require.js,340,0,0
+1666055325298,275,Launch/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff-54,200,,Thread Group 1-1,text,true,,25443,655,3,3,https://advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff,275,0,0
+1666055325304,275,Launch/css/main.min.css-42,200,,Thread Group 1-2,text,true,,30602,570,3,3,https://advantageonlineshopping.com/css/main.min.css,271,0,0
+1666055325296,535,/catalog/fetchImage-33,200,,Thread Group 1-3,bin,true,,64297,635,3,3,https://advantageonlineshopping.com/catalog/fetchImage?image_id=tablets,286,0,0
+1666055325580,266,Launch/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff-50,200,,Thread Group 1-2,text,true,,25415,657,3,3,https://advantageonlineshopping.com/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff,266,0,0
+1666055325574,299,Launch/accountservice/ws/GetAccountConfigurationRequest-59,200,,Thread Group 1-1,text,true,,1570,1205,3,3,https://advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest,299,0,0
+1666055325837,356,/catalog/fetchImage-37,200,,Thread Group 1-3,bin,true,,60534,638,3,3,https://advantageonlineshopping.com/catalog/fetchImage?image_id=headphones,354,0,0
+1666055325874,340,Launch/catalog/api/v1/categories-60,200,,Thread Group 1-1,text,true,,4898,591,3,3,https://advantageonlineshopping.com/catalog/api/v1/categories,339,0,0
+1666055326194,305,/catalog/fetchImage-36,200,,Thread Group 1-3,bin,true,,92142,632,3,3,https://advantageonlineshopping.com/catalog/fetchImage?image_id=mice,301,0,0
+1666055325847,653,Launch/main.min.js-49,200,,Thread Group 1-2,text,true,,268979,551,3,3,https://advantageonlineshopping.com/main.min.js,348,0,0
+1666055326215,348,Launch/catalog/api/v1/deals/search-62,200,,Thread Group 1-1,text,true,,783,611,3,3,https://advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true,348,0,0
+1666055326500,256,Launch/services.properties-52,200,,Thread Group 1-2,,true,,1378,555,4,4,https://advantageonlineshopping.com/services.properties,256,0,0
+1666055326572,253,Launch/app/tempFiles/popularProducts.json-64,200,,Thread Group 1-1,text,true,,965,600,4,4,https://advantageonlineshopping.com/app/tempFiles/popularProducts.json,253,0,0
+1666055326757,259,Launch/css/images/closeDark.png-57,200,,Thread Group 1-2,bin,true,,1496,624,4,4,https://advantageonlineshopping.com/css/images/closeDark.png,259,0,0
+1666055326499,519,/catalog/fetchImage-35,200,,Thread Group 1-3,bin,true,,229404,636,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=speakers,258,0,0
+1666055326826,253,Launch/app/views/home-page.html-65,200,,Thread Group 1-1,text,true,,2691,566,4,4,https://advantageonlineshopping.com/app/views/home-page.html,253,0,0
+1666055327080,257,Launch/css/images/arrow_right.png-66,200,,Thread Group 1-1,bin,true,,1392,642,4,4,https://advantageonlineshopping.com/css/images/arrow_right.png,257,0,0
+1666055327016,324,Launch/css/images/logo.png-56,200,,Thread Group 1-2,bin,true,,3043,619,4,4,https://advantageonlineshopping.com/css/images/logo.png,324,0,0
+1666055327018,322,/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff-39,200,,Thread Group 1-3,text,true,,25203,651,4,4,https://advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff,322,0,0
+1666055327338,283,Launch/catalog/fetchImage-68,200,,Thread Group 1-1,bin,true,,48269,635,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=laptops,282,0,0
+1666055327341,280,Launch/-41,200,,Thread Group 1-3,text,true,,3264,671,4,4,https://advantageonlineshopping.com/,280,0,0
+1666055327340,284,Launch/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL-55,200,,Thread Group 1-2,text,true,,6974,617,4,4,https://advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL,283,0,0
+1666055327624,255,Launch/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff-53,200,,Thread Group 1-2,text,true,,24971,653,4,4,https://advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff,255,0,0
+1666055327622,258,Launch/css/images/Down_arrow.svg-44,200,,Thread Group 1-3,text,true,,1195,625,4,4,https://advantageonlineshopping.com/css/images/Down_arrow.svg,258,0,0
+1666055327622,267,Launch/catalog/fetchImage-71,200,,Thread Group 1-1,bin,true,,60549,638,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=headphones,266,0,0
+1666055326688,1444,/catalog/fetchImage-34,200,,Thread Group 1-4,bin,true,,48269,635,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=laptops,1186,0,657
+1666055327880,255,Launch/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff-54,200,,Thread Group 1-2,text,true,,25443,655,4,4,https://advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff,254,0,0
+1666055327880,260,Launch/vendor/requirejs/require.js-43,200,,Thread Group 1-3,text,true,,21493,567,4,4,https://advantageonlineshopping.com/vendor/requirejs/require.js,259,0,0
+1666055327889,260,Launch/catalog/fetchImage-67,200,,Thread Group 1-1,bin,true,,64297,635,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=tablets,259,0,0
+1666055328140,305,Launch/css/main.min.css-42,200,,Thread Group 1-3,text,true,,30595,570,4,4,https://advantageonlineshopping.com/css/main.min.css,303,0,0
+1666055328132,314,/catalog/fetchImage-33,200,,Thread Group 1-4,bin,true,,64297,635,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=tablets,313,0,0
+1666055328135,311,Launch/accountservice/ws/GetAccountConfigurationRequest-59,200,,Thread Group 1-2,text,true,,1570,1205,4,4,https://advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest,311,0,0
+1666055328149,298,Launch/catalog/fetchImage-69,200,,Thread Group 1-1,bin,true,,92142,632,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=mice,294,0,0
+1666055328447,303,Launch/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff-73,200,,Thread Group 1-1,text,true,,25203,651,4,4,https://advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff,302,0,0
+1666055328445,305,Launch/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff-50,200,,Thread Group 1-3,text,true,,25415,657,4,4,https://advantageonlineshopping.com/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff,304,0,0
+1666055328446,306,/catalog/fetchImage-37,200,,Thread Group 1-4,bin,true,,60542,638,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=headphones,305,0,0
+1666055328446,345,Launch/catalog/api/v1/categories-60,200,,Thread Group 1-2,text,true,,4906,591,4,4,https://advantageonlineshopping.com/catalog/api/v1/categories,344,0,0
+1666055328751,314,Launch/catalog/fetchImage-70,200,,Thread Group 1-1,bin,true,,229404,636,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=speakers,306,0,0
+1666055328791,358,Launch/catalog/api/v1/deals/search-62,200,,Thread Group 1-2,text,true,,783,611,4,4,https://advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true,358,0,0
+1666055329066,297,Launch/css/images/chat_logo.png-76,200,,Thread Group 1-1,bin,true,,3401,624,4,4,https://advantageonlineshopping.com/css/images/chat_logo.png,297,0,0
+1666055328752,612,/catalog/fetchImage-36,200,,Thread Group 1-4,bin,true,,92126,632,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=mice,304,0,0
+1666055329150,252,Launch/app/tempFiles/popularProducts.json-64,200,,Thread Group 1-2,text,true,,965,600,4,4,https://advantageonlineshopping.com/app/tempFiles/popularProducts.json,252,0,0
+1666055329363,307,Launch/css/images/GoUp.png-77,200,,Thread Group 1-1,bin,true,,2512,619,4,4,https://advantageonlineshopping.com/css/images/GoUp.png,307,0,0
+1666055329402,272,Launch/app/views/home-page.html-65,200,,Thread Group 1-2,text,true,,2691,566,4,4,https://advantageonlineshopping.com/app/views/home-page.html,272,0,0
+1666055329670,307,Launch/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff-74,200,,Thread Group 1-1,text,true,,25339,651,5,5,https://advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff,307,0,0
+1666055329674,304,Launch/css/images/arrow_right.png-66,200,,Thread Group 1-2,bin,true,,1392,642,5,5,https://advantageonlineshopping.com/css/images/arrow_right.png,304,0,0
+1666055329364,616,/catalog/fetchImage-35,200,,Thread Group 1-4,bin,true,,229427,636,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=speakers,308,0,0
+1666055329978,305,Launch/css/images/facebook.png-78,200,,Thread Group 1-1,bin,true,,1981,623,5,5,https://advantageonlineshopping.com/css/images/facebook.png,305,0,0
+1666055328752,1535,Launch/main.min.js-49,200,,Thread Group 1-3,text,true,,268987,551,5,5,https://advantageonlineshopping.com/main.min.js,304,0,0
+1666055329978,310,Launch/catalog/fetchImage-68,200,,Thread Group 1-2,bin,true,,48269,635,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=laptops,306,0,0
+1666055329980,309,/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff-39,200,,Thread Group 1-4,text,true,,25203,651,5,5,https://advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff,309,0,0
+1666055330283,307,Launch/css/images/twitter.png-79,200,,Thread Group 1-1,bin,true,,2462,622,5,5,https://advantageonlineshopping.com/css/images/twitter.png,307,0,0
+1666055330289,301,Launch/-41,200,,Thread Group 1-4,text,true,,3264,671,5,5,https://advantageonlineshopping.com/,301,0,0
+1666055330287,304,Launch/services.properties-52,200,,Thread Group 1-3,,true,,1378,555,5,5,https://advantageonlineshopping.com/services.properties,304,0,0
+1666055330288,304,Launch/catalog/fetchImage-71,200,,Thread Group 1-2,bin,true,,60534,638,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=headphones,303,0,0
+1666055330591,311,Launch/css/images/closeDark.png-57,200,,Thread Group 1-3,bin,true,,1496,624,5,5,https://advantageonlineshopping.com/css/images/closeDark.png,311,0,0
+1666055330590,313,Launch/css/images/Down_arrow.svg-44,200,,Thread Group 1-4,text,true,,1195,625,5,5,https://advantageonlineshopping.com/css/images/Down_arrow.svg,313,0,0
+1666055330590,314,Launch/css/images/Special-offer.jpg-75,200,,Thread Group 1-1,bin,true,,81227,628,5,5,https://advantageonlineshopping.com/css/images/Special-offer.jpg,311,0,0
+1666055330592,313,Launch/catalog/fetchImage-67,200,,Thread Group 1-2,bin,true,,64297,635,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=tablets,308,0,0
+1666055329701,1504,/catalog/fetchImage-34,200,,Thread Group 1-5,bin,true,,48269,635,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=laptops,1199,0,594
+1666055330903,303,Launch/css/images/logo.png-56,200,,Thread Group 1-3,bin,true,,3043,619,5,5,https://advantageonlineshopping.com/css/images/logo.png,302,0,0
+1666055330905,301,Launch/css/images/linkedin.png-80,200,,Thread Group 1-1,bin,true,,2105,623,5,5,https://advantageonlineshopping.com/css/images/linkedin.png,301,0,0
+1666055330903,306,Launch/vendor/requirejs/require.js-43,200,,Thread Group 1-4,text,true,,21492,567,5,5,https://advantageonlineshopping.com/vendor/requirejs/require.js,305,0,0
+1666055330906,303,Launch/catalog/fetchImage-69,200,,Thread Group 1-2,bin,true,,92149,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=mice,302,0,0
+1666055331206,309,Launch/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL-55,200,,Thread Group 1-3,text,true,,6974,617,5,5,https://advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL,308,0,0
+1666055331207,313,Launch/css/images/Banner2.jpg-82,200,,Thread Group 1-1,bin,true,,85492,622,5,5,https://advantageonlineshopping.com/css/images/Banner2.jpg,307,0,0
+1666055331210,313,Launch/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff-73,200,,Thread Group 1-2,text,true,,25203,651,5,5,https://advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff,313,0,0
+1666055331209,317,Launch/css/main.min.css-42,200,,Thread Group 1-4,text,true,,30595,570,5,5,https://advantageonlineshopping.com/css/main.min.css,315,0,0
+1666055331516,305,Launch/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff-53,200,,Thread Group 1-3,text,true,,24971,653,5,5,https://advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff,305,0,0
+1666055331521,301,Launch/css/images/Popular-item3.jpg-84,200,,Thread Group 1-1,bin,true,,26379,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item3.jpg,300,0,0
+1666055331205,618,/catalog/fetchImage-33,200,,Thread Group 1-5,bin,true,,64297,635,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=tablets,323,0,0
+1666055331523,309,Launch/catalog/fetchImage-70,200,,Thread Group 1-2,bin,true,,229404,636,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=speakers,300,0,0
+1666055331526,307,Launch/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff-50,200,,Thread Group 1-4,text,true,,25415,657,5,5,https://advantageonlineshopping.com/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff,305,0,0
+1666055331822,305,Launch/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff-54,200,,Thread Group 1-3,text,true,,25443,655,5,5,https://advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff,305,0,0
+1666055331822,308,Launch/css/images/Popular-item2.jpg-85,200,,Thread Group 1-1,bin,true,,28488,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item2.jpg,305,0,0
+1666055331833,297,Launch/css/images/chat_logo.png-76,200,,Thread Group 1-2,bin,true,,3401,624,5,5,https://advantageonlineshopping.com/css/images/chat_logo.png,297,0,0
+1666055331823,309,/catalog/fetchImage-37,200,,Thread Group 1-5,bin,true,,60542,638,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=headphones,307,0,0
+1666055332130,310,Launch/css/images/GoUp.png-77,200,,Thread Group 1-2,bin,true,,2512,619,5,5,https://advantageonlineshopping.com/css/images/GoUp.png,310,0,0
+1666055332130,314,Launch/css/images/Banner3.jpg-83,200,,Thread Group 1-1,bin,true,,68857,622,5,5,https://advantageonlineshopping.com/css/images/Banner3.jpg,312,0,0
+1666055331833,611,Launch/main.min.js-49,200,,Thread Group 1-4,text,true,,268987,551,5,5,https://advantageonlineshopping.com/main.min.js,298,0,0
+1666055332132,316,/catalog/fetchImage-36,200,,Thread Group 1-5,bin,true,,92171,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=mice,313,0,0
+1666055332127,318,Launch/accountservice/ws/GetAccountConfigurationRequest-59,200,,Thread Group 1-3,text,true,,1570,1205,5,5,https://advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest,318,0,0
+1666055332441,255,Launch/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff-74,200,,Thread Group 1-2,text,true,,25339,651,5,5,https://advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff,255,0,0
+1666055332444,260,Launch/services.properties-52,200,,Thread Group 1-4,,true,,1378,555,5,5,https://advantageonlineshopping.com/services.properties,260,0,0
+1666055332449,338,Launch/catalog/api/v1/categories-60,200,,Thread Group 1-3,text,true,,4910,591,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories,337,0,0
+1666055332696,278,Launch/css/images/facebook.png-78,200,,Thread Group 1-2,bin,true,,1981,623,5,5,https://advantageonlineshopping.com/css/images/facebook.png,278,0,0
+1666055332444,531,Launch/css/images/Banner1.jpg-81,200,,Thread Group 1-1,bin,true,,496781,622,5,5,https://advantageonlineshopping.com/css/images/Banner1.jpg,254,0,0
+1666055332705,271,Launch/css/images/closeDark.png-57,200,,Thread Group 1-4,bin,true,,1496,624,5,5,https://advantageonlineshopping.com/css/images/closeDark.png,271,0,0
+1666055332448,529,/catalog/fetchImage-35,200,,Thread Group 1-5,bin,true,,229419,636,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=speakers,264,0,0
+1666055332787,346,Launch/catalog/api/v1/deals/search-62,200,,Thread Group 1-3,text,true,,783,611,5,5,https://advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true,345,0,0
+1666055332975,253,Launch/css/images/twitter.png-79,200,,Thread Group 1-2,bin,true,,2462,622,5,5,https://advantageonlineshopping.com/css/images/twitter.png,253,0,0
+1666055332975,272,Launch/css/images/Popular-item1.jpg-86,200,,Thread Group 1-1,bin,true,,43138,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item1.jpg,270,0,0
+1666055332978,269,Launch/css/images/logo.png-56,200,,Thread Group 1-4,bin,true,,3043,619,5,5,https://advantageonlineshopping.com/css/images/logo.png,269,0,0
+1666055332978,271,/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff-39,200,,Thread Group 1-5,text,true,,25203,651,5,5,https://advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff,271,0,0
+1666055333133,257,Launch/app/tempFiles/popularProducts.json-64,200,,Thread Group 1-3,text,true,,965,600,5,5,https://advantageonlineshopping.com/app/tempFiles/popularProducts.json,257,0,0
+1666055333247,317,Login/css/images/FacebookLogo.png-87,200,,Thread Group 1-1,bin,true,,1427,643,5,5,https://advantageonlineshopping.com/css/images/FacebookLogo.png,317,0,0
+1666055333229,337,Launch/css/images/Special-offer.jpg-75,200,,Thread Group 1-2,bin,true,,81227,628,5,5,https://advantageonlineshopping.com/css/images/Special-offer.jpg,336,0,0
+1666055333249,319,Launch/-41,200,,Thread Group 1-5,text,true,,3264,671,5,5,https://advantageonlineshopping.com/,318,0,0
+1666055333248,321,Launch/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL-55,200,,Thread Group 1-4,text,true,,6974,617,5,5,https://advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL,321,0,0
+1666055333392,257,Launch/app/views/home-page.html-65,200,,Thread Group 1-3,text,true,,2691,566,5,5,https://advantageonlineshopping.com/app/views/home-page.html,254,0,0
+1666055333567,294,Launch/css/images/linkedin.png-80,200,,Thread Group 1-2,bin,true,,2105,623,5,5,https://advantageonlineshopping.com/css/images/linkedin.png,294,0,0
+1666055333569,299,Launch/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff-53,200,,Thread Group 1-4,text,true,,24971,653,5,5,https://advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff,298,0,0
+1666055333565,310,Login/css/main.min.css-88,200,,Thread Group 1-1,text,true,,30595,632,5,5,https://advantageonlineshopping.com/css/main.min.css,309,0,0
+1666055333568,308,Launch/css/images/Down_arrow.svg-44,200,,Thread Group 1-5,text,true,,1195,625,5,5,https://advantageonlineshopping.com/css/images/Down_arrow.svg,308,0,0
+1666055333651,255,Launch/css/images/arrow_right.png-66,200,,Thread Group 1-3,bin,true,,1392,642,5,5,https://advantageonlineshopping.com/css/images/arrow_right.png,255,0,0
+1666055333863,317,Launch/css/images/Banner2.jpg-82,200,,Thread Group 1-2,bin,true,,85492,622,5,5,https://advantageonlineshopping.com/css/images/Banner2.jpg,315,0,0
+1666055333873,309,Launch/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff-54,200,,Thread Group 1-4,text,true,,25443,655,5,5,https://advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff,309,0,0
+1666055333876,309,Launch/vendor/requirejs/require.js-43,200,,Thread Group 1-5,text,true,,21486,567,5,5,https://advantageonlineshopping.com/vendor/requirejs/require.js,308,0,0
+1666055333906,280,Launch/catalog/fetchImage-68,200,,Thread Group 1-3,bin,true,,48269,635,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=laptops,280,0,0
+1666055333876,344,Login/accountservice/ws/AccountLoginRequest-89,200,,Thread Group 1-1,text,true,,1542,1247,5,5,https://advantageonlineshopping.com/accountservice/ws/AccountLoginRequest,344,0,0
+1666055334181,301,Launch/css/images/Popular-item3.jpg-84,200,,Thread Group 1-2,bin,true,,26379,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item3.jpg,301,0,0
+1666055334187,298,Launch/catalog/fetchImage-71,200,,Thread Group 1-3,bin,true,,60534,638,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=headphones,297,0,0
+1666055334183,319,Launch/accountservice/ws/GetAccountConfigurationRequest-59,200,,Thread Group 1-4,text,true,,1570,1205,5,5,https://advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest,319,0,0
+1666055334185,317,Launch/css/main.min.css-42,200,,Thread Group 1-5,text,true,,30609,570,5,5,https://advantageonlineshopping.com/css/main.min.css,315,0,0
+1666055334236,450,Login/order/api/v1/carts/800075438-90,200,,Thread Group 1-1,text,true,,622,641,5,5,https://advantageonlineshopping.com/order/api/v1/carts/800075438,449,0,0
+1666055334483,255,Launch/css/images/Popular-item2.jpg-85,200,,Thread Group 1-2,bin,true,,28488,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item2.jpg,254,0,0
+1666055334485,269,Launch/catalog/fetchImage-67,200,,Thread Group 1-3,bin,true,,64297,635,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=tablets,267,0,0
+1666055334502,258,Launch/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff-50,200,,Thread Group 1-5,text,true,,25415,657,5,5,https://advantageonlineshopping.com/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff,257,0,0
+1666055334502,346,Launch/catalog/api/v1/categories-60,200,,Thread Group 1-4,text,true,,4901,591,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories,345,0,0
+1666055334738,264,Launch/css/images/Banner3.jpg-83,200,,Thread Group 1-2,bin,true,,68857,622,5,5,https://advantageonlineshopping.com/css/images/Banner3.jpg,262,0,0
+1666055334758,257,Launch/catalog/fetchImage-69,200,,Thread Group 1-3,bin,true,,92133,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=mice,255,0,0
+1666055334686,506,Click Item/catalog/api/v1/categories/4/products-91,200,,Thread Group 1-1,text,true,,2407,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/4/products,506,0,0
+1666055334848,354,Launch/catalog/api/v1/deals/search-62,200,,Thread Group 1-4,text,true,,783,611,5,5,https://advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true,354,0,0
+1666055335016,266,Launch/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff-73,200,,Thread Group 1-3,text,true,,25203,651,5,5,https://advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff,266,0,0
+1666055335002,282,Launch/css/images/Banner1.jpg-81,200,,Thread Group 1-2,bin,true,,496781,622,5,5,https://advantageonlineshopping.com/css/images/Banner1.jpg,257,0,0
+1666055334760,527,Launch/main.min.js-49,200,,Thread Group 1-5,text,true,,269014,551,5,5,https://advantageonlineshopping.com/main.min.js,257,0,0
+1666055335203,302,Launch/app/tempFiles/popularProducts.json-64,200,,Thread Group 1-4,text,true,,965,600,5,5,https://advantageonlineshopping.com/app/tempFiles/popularProducts.json,302,0,0
+1666055335285,259,Launch/css/images/Popular-item1.jpg-86,200,,Thread Group 1-2,bin,true,,43138,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item1.jpg,258,0,0
+1666055335287,258,Launch/services.properties-52,200,,Thread Group 1-5,,true,,1378,555,5,5,https://advantageonlineshopping.com/services.properties,258,0,0
+1666055335283,266,Launch/catalog/fetchImage-70,200,,Thread Group 1-3,bin,true,,229404,636,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=speakers,254,0,0
+1666055335193,436,Click Item/catalog/api/v1/categories/attributes-92,200,,Thread Group 1-1,text,true,,984,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/attributes,436,0,0
+1666055335505,256,Launch/app/views/home-page.html-65,200,,Thread Group 1-4,text,true,,2691,566,5,5,https://advantageonlineshopping.com/app/views/home-page.html,256,0,0
+1666055335545,252,Login/css/images/FacebookLogo.png-87,200,,Thread Group 1-2,bin,true,,1427,643,5,5,https://advantageonlineshopping.com/css/images/FacebookLogo.png,252,0,0
+1666055335546,251,Launch/css/images/closeDark.png-57,200,,Thread Group 1-5,bin,true,,1496,624,5,5,https://advantageonlineshopping.com/css/images/closeDark.png,251,0,0
+1666055335550,252,Launch/css/images/chat_logo.png-76,200,,Thread Group 1-3,bin,true,,3401,624,5,5,https://advantageonlineshopping.com/css/images/chat_logo.png,252,0,0
+1666055335630,254,Click Item/app/views/category-page.html-93,200,,Thread Group 1-1,text,true,,1154,570,5,5,https://advantageonlineshopping.com/app/views/category-page.html,254,0,0
+1666055335798,342,Login/css/main.min.css-88,200,,Thread Group 1-2,text,true,,30609,632,5,5,https://advantageonlineshopping.com/css/main.min.css,323,0,0
+1666055335802,318,Launch/css/images/GoUp.png-77,200,,Thread Group 1-3,bin,true,,2512,619,5,5,https://advantageonlineshopping.com/css/images/GoUp.png,318,0,0
+1666055335798,322,Launch/css/images/logo.png-56,200,,Thread Group 1-5,bin,true,,3043,619,5,5,https://advantageonlineshopping.com/css/images/logo.png,322,0,0
+1666055335761,358,Launch/css/images/arrow_right.png-66,200,,Thread Group 1-4,bin,true,,1392,642,5,5,https://advantageonlineshopping.com/css/images/arrow_right.png,358,0,0
+1666055335885,265,Click Item/css/images/Filter.png-99,200,,Thread Group 1-1,bin,true,,1813,621,5,5,https://advantageonlineshopping.com/css/images/Filter.png,265,0,0
+1666055336147,281,Launch/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL-55,200,,Thread Group 1-5,text,true,,6974,617,5,5,https://advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL,281,0,0
+1666055336146,283,Launch/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff-74,200,,Thread Group 1-3,text,true,,25339,651,5,5,https://advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff,282,0,0
+1666055336149,281,Launch/catalog/fetchImage-68,200,,Thread Group 1-4,bin,true,,48276,635,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=laptops,280,0,0
+1666055336150,281,Click Item/catalog/fetchImage-95,200,,Thread Group 1-1,bin,true,,47215,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4200,280,0,0
+1666055336145,343,Login/accountservice/ws/AccountLoginRequest-89,200,,Thread Group 1-2,text,true,,1542,1247,5,5,https://advantageonlineshopping.com/accountservice/ws/AccountLoginRequest,343,0,0
+1666055336428,307,Launch/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff-53,200,,Thread Group 1-5,text,true,,24971,653,5,5,https://advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff,307,0,0
+1666055336430,306,Launch/catalog/fetchImage-71,200,,Thread Group 1-4,bin,true,,60542,638,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=headphones,305,0,0
+1666055336431,305,Click Item/catalog/fetchImage-96,200,,Thread Group 1-1,bin,true,,54453,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4700,304,0,0
+1666055336429,308,Launch/css/images/facebook.png-78,200,,Thread Group 1-3,bin,true,,1981,623,5,5,https://advantageonlineshopping.com/css/images/facebook.png,308,0,0
+1666055336489,348,Login/order/api/v1/carts/800075438-90,200,,Thread Group 1-2,text,true,,621,641,5,5,https://advantageonlineshopping.com/order/api/v1/carts/646040722,348,0,0
+1666055336736,305,Launch/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff-54,200,,Thread Group 1-5,text,true,,25443,655,5,5,https://advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff,305,0,0
+1666055336736,306,Launch/catalog/fetchImage-67,200,,Thread Group 1-4,bin,true,,64319,635,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=tablets,305,0,0
+1666055336738,305,Launch/css/images/twitter.png-79,200,,Thread Group 1-3,bin,true,,2462,622,5,5,https://advantageonlineshopping.com/css/images/twitter.png,305,0,0
+1666055336737,306,Click Item/catalog/fetchImage-98,200,,Thread Group 1-1,bin,true,,50132,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4300,306,0,0
+1666055337043,308,Launch/css/images/Special-offer.jpg-75,200,,Thread Group 1-3,bin,true,,81227,628,5,5,https://advantageonlineshopping.com/css/images/Special-offer.jpg,307,0,0
+1666055337044,311,Click Item/catalog/fetchImage-97,200,,Thread Group 1-1,bin,true,,72199,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4600,310,0,0
+1666055337042,314,Launch/accountservice/ws/GetAccountConfigurationRequest-59,200,,Thread Group 1-5,text,true,,1570,1205,5,5,https://advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest,314,0,0
+1666055337043,314,Launch/catalog/fetchImage-69,200,,Thread Group 1-4,bin,true,,92142,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=mice,311,0,0
+1666055336837,521,Click Item/catalog/api/v1/categories/4/products-91,200,,Thread Group 1-2,text,true,,2405,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/4/products,521,0,0
+1666055337352,321,Launch/css/images/linkedin.png-80,200,,Thread Group 1-3,bin,true,,2105,623,5,5,https://advantageonlineshopping.com/css/images/linkedin.png,321,0,0
+1666055337357,329,Launch/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff-73,200,,Thread Group 1-4,text,true,,25203,651,5,5,https://advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff,328,0,0
+1666055337357,355,Launch/catalog/api/v1/categories-60,200,,Thread Group 1-5,text,true,,4912,591,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories,355,0,0
+1666055337358,448,Click Item/catalog/api/v1/categories/attributes-92,200,,Thread Group 1-2,text,true,,984,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/attributes,448,0,0
+1666055337356,614,Click Item/css/images/category_banner_4.png-94,200,,Thread Group 1-1,bin,true,,462485,632,5,5,https://advantageonlineshopping.com/css/images/category_banner_4.png,325,0,0
+1666055337675,297,Launch/css/images/Banner2.jpg-82,200,,Thread Group 1-3,bin,true,,85492,622,5,5,https://advantageonlineshopping.com/css/images/Banner2.jpg,295,0,0
+1666055337806,256,Click Item/app/views/category-page.html-93,200,,Thread Group 1-2,text,true,,1154,570,5,5,https://advantageonlineshopping.com/app/views/category-page.html,256,0,0
+1666055337712,357,Launch/catalog/api/v1/deals/search-62,200,,Thread Group 1-5,text,true,,783,611,5,5,https://advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true,357,0,0
+1666055337973,297,Launch/css/images/Popular-item3.jpg-84,200,,Thread Group 1-3,bin,true,,26379,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item3.jpg,296,0,0
+1666055337970,301,Click Item/catalog/fetchImage-100,200,,Thread Group 1-1,bin,true,,50887,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4400,300,0,0
+1666055338062,251,Click Item/css/images/Filter.png-99,200,,Thread Group 1-2,bin,true,,1813,621,5,5,https://advantageonlineshopping.com/css/images/Filter.png,251,0,0
+1666055338069,252,Launch/app/tempFiles/popularProducts.json-64,200,,Thread Group 1-5,text,true,,965,600,5,5,https://advantageonlineshopping.com/app/tempFiles/popularProducts.json,252,0,0
+1666055338270,308,Launch/css/images/Popular-item2.jpg-85,200,,Thread Group 1-3,bin,true,,28488,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item2.jpg,308,0,0
+1666055338271,308,Click Item/catalog/fetchImage-101,200,,Thread Group 1-1,bin,true,,71216,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4100,307,0,0
+1666055338314,266,Click Item/catalog/fetchImage-95,200,,Thread Group 1-2,bin,true,,47215,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4200,265,0,0
+1666055338322,261,Launch/app/views/home-page.html-65,200,,Thread Group 1-5,text,true,,2691,566,5,5,https://advantageonlineshopping.com/app/views/home-page.html,260,0,0
+1666055338580,256,Click Item/catalog/fetchImage-96,200,,Thread Group 1-2,bin,true,,54460,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4700,255,0,0
+1666055338578,258,Launch/css/images/Banner3.jpg-83,200,,Thread Group 1-3,bin,true,,68857,622,5,5,https://advantageonlineshopping.com/css/images/Banner3.jpg,257,0,0
+1666055338579,259,Click Item/catalog/fetchImage-102,200,,Thread Group 1-1,bin,true,,59204,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4500,258,0,0
+1666055338583,259,Launch/css/images/arrow_right.png-66,200,,Thread Group 1-5,bin,true,,1392,642,5,5,https://advantageonlineshopping.com/css/images/arrow_right.png,259,0,0
+1666055338837,261,Click Item/catalog/fetchImage-98,200,,Thread Group 1-2,bin,true,,50132,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4300,260,0,0
+1666055338842,262,Launch/catalog/fetchImage-68,200,,Thread Group 1-5,bin,true,,48269,635,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=laptops,261,0,0
+1666055338838,348,Choose Item/catalog/api/v1/products/20-104,200,,Thread Group 1-1,text,true,,1010,592,5,5,https://advantageonlineshopping.com/catalog/api/v1/products/20,348,0,0
+1666055338837,564,Launch/css/images/Banner1.jpg-81,200,,Thread Group 1-3,bin,true,,496781,622,5,5,https://advantageonlineshopping.com/css/images/Banner1.jpg,256,0,0
+1666055339098,305,Click Item/catalog/fetchImage-97,200,,Thread Group 1-2,bin,true,,72215,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4600,299,0,0
+1666055339104,300,Launch/catalog/fetchImage-71,200,,Thread Group 1-5,bin,true,,60534,638,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=headphones,298,0,0
+1666055339401,307,Launch/css/images/Popular-item1.jpg-86,200,,Thread Group 1-3,bin,true,,43138,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item1.jpg,306,0,0
+1666055339708,302,Login/css/images/FacebookLogo.png-87,200,,Thread Group 1-3,bin,true,,1427,643,5,5,https://advantageonlineshopping.com/css/images/FacebookLogo.png,302,0,0
+1666055339195,816,Choose Item/catalog/api/v1/categories/all_data-103,200,,Thread Group 1-1,text,true,,8929,600,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/all_data,816,0,0
+1666055340010,310,Login/css/main.min.css-88,200,,Thread Group 1-3,text,true,,30595,632,5,5,https://advantageonlineshopping.com/css/main.min.css,309,0,0
+1666055340011,537,Choose Item/catalog/api/v1/categories/4/products-105,200,,Thread Group 1-1,text,true,,2414,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/4/products,536,0,0
+1666055340321,332,Login/accountservice/ws/AccountLoginRequest-89,200,,Thread Group 1-3,text,true,,1541,1247,5,5,https://advantageonlineshopping.com/accountservice/ws/AccountLoginRequest,332,0,0
+1666055340548,253,Choose Item/app/views/product-page.html-107,200,,Thread Group 1-1,text,true,,2818,569,5,5,https://advantageonlineshopping.com/app/views/product-page.html,253,0,0
+1666055340653,350,Login/order/api/v1/carts/800075438-90,200,,Thread Group 1-3,text,true,,622,641,5,5,https://advantageonlineshopping.com/order/api/v1/carts/788523108,350,0,0
+1666055341003,542,Click Item/catalog/api/v1/categories/4/products-91,200,,Thread Group 1-3,text,true,,2416,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/4/products,542,0,0
+1666055340802,1037,Choose Item/treatment/get-106,200,OK,Thread Group 1-1,text,true,,734,2498,5,5,https://treatment.grammarly.com/treatment/get,1036,0,779
+1666055341842,136,Choose Item/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSTwlUzTP1oFGzihIFDeeNQA4SBQ3OQUx6EgUNeG8SGRIFDQ8WvisSBQ3yF2yJEgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=-111,200,OK,Thread Group 1-1,text,true,,665,752,5,5,https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSTwlUzTP1oFGzihIFDeeNQA4SBQ3OQUx6EgUNeG8SGRIFDQ8WvisSBQ3yF2yJEgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=?alt=proto,136,0,59
+1666055341546,471,Click Item/catalog/api/v1/categories/attributes-92,200,,Thread Group 1-3,text,true,,984,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/attributes,470,0,0
+1666055341978,284,Choose Item/css/images/review_Left_disabled.png-110,200,,Thread Group 1-1,bin,true,,1485,635,5,5,https://advantageonlineshopping.com/css/images/review_Left_disabled.png,284,0,0
+1666055342017,253,Click Item/app/views/category-page.html-93,200,,Thread Group 1-3,text,true,,1154,570,5,5,https://advantageonlineshopping.com/app/views/category-page.html,253,0,0
+1666055339404,2893,Launch/catalog/fetchImage-67,200,,Thread Group 1-5,bin,true,,64297,635,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=tablets,306,0,0
+1666055342270,250,Click Item/css/images/Filter.png-99,200,,Thread Group 1-3,bin,true,,1813,621,5,5,https://advantageonlineshopping.com/css/images/Filter.png,250,0,0
+1666055342263,257,Choose Item/css/images/reviewUser.png-109,200,,Thread Group 1-1,bin,true,,1940,625,5,5,https://advantageonlineshopping.com/css/images/reviewUser.png,257,0,0
+1666055342298,276,Launch/catalog/fetchImage-69,200,,Thread Group 1-5,bin,true,,92142,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=mice,274,0,0
+1666055342521,255,Choose Item/css/images/review_right.png-108,200,,Thread Group 1-1,bin,true,,1473,627,5,5,https://advantageonlineshopping.com/css/images/review_right.png,255,0,0
+1666055342520,257,Click Item/catalog/fetchImage-95,200,,Thread Group 1-3,bin,true,,47199,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4200,256,0,0
+1666055342574,256,Launch/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff-73,200,,Thread Group 1-5,text,true,,25203,651,5,5,https://advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff,256,0,0
+1666055337686,5179,Launch/catalog/fetchImage-70,200,,Thread Group 1-4,bin,true,,229390,636,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=speakers,285,0,0
+1666055339404,3679,Click Item/css/images/category_banner_4.png-94,200,,Thread Group 1-2,bin,true,,462485,632,5,5,https://advantageonlineshopping.com/css/images/category_banner_4.png,304,0,0
+1666055342777,306,Click Item/catalog/fetchImage-96,200,,Thread Group 1-3,bin,true,,54453,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4700,306,0,0
+1666055342830,262,Launch/catalog/fetchImage-70,200,,Thread Group 1-5,bin,true,,229411,636,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=speakers,258,0,0
+1666055342866,253,Launch/css/images/chat_logo.png-76,200,,Thread Group 1-4,bin,true,,3401,624,5,5,https://advantageonlineshopping.com/css/images/chat_logo.png,253,0,0
+1666055343084,314,Click Item/catalog/fetchImage-98,200,,Thread Group 1-3,bin,true,,50132,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4300,313,0,0
+1666055343083,316,Click Item/catalog/fetchImage-100,200,,Thread Group 1-2,bin,true,,50887,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4400,314,0,0
+1666055343093,306,Launch/css/images/chat_logo.png-76,200,,Thread Group 1-5,bin,true,,3401,624,5,5,https://advantageonlineshopping.com/css/images/chat_logo.png,306,0,0
+1666055343120,281,Launch/css/images/GoUp.png-77,200,,Thread Group 1-4,bin,true,,2512,619,5,5,https://advantageonlineshopping.com/css/images/GoUp.png,281,0,0
+1666055342776,656,Click Add to Cart/order/api/v1/carts/800075438/product/20/color/414141?quantity=1-112,201,,Thread Group 1-1,text,true,,855,833,5,5,https://advantageonlineshopping.com/order/api/v1/carts/800075438/product/20/color/414141?quantity=1,656,0,0
+1666055343398,302,Click Item/catalog/fetchImage-97,200,,Thread Group 1-3,bin,true,,72214,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4600,302,0,0
+1666055343401,304,Launch/css/images/GoUp.png-77,200,,Thread Group 1-5,bin,true,,2512,619,5,5,https://advantageonlineshopping.com/css/images/GoUp.png,304,0,0
+1666055343399,308,Click Item/catalog/fetchImage-101,200,,Thread Group 1-2,bin,true,,71232,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4100,308,0,0
+1666055343401,309,Launch/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff-74,200,,Thread Group 1-4,text,true,,25339,651,5,5,https://advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff,309,0,0
+1666055343433,474,Click Cart/order/api/v1/carts/800075438-113,200,,Thread Group 1-1,text,true,,760,641,5,5,https://advantageonlineshopping.com/order/api/v1/carts/800075438,474,0,0
+1666055343705,257,Launch/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff-74,200,,Thread Group 1-5,text,true,,25339,651,5,5,https://advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff,256,0,0
+1666055343711,254,Launch/css/images/facebook.png-78,200,,Thread Group 1-4,bin,true,,1981,623,5,5,https://advantageonlineshopping.com/css/images/facebook.png,254,0,0
+1666055343707,261,Click Item/catalog/fetchImage-102,200,,Thread Group 1-2,bin,true,,59204,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4500,258,0,0
+1666055343907,301,Click Cart/app/views/shoppingCart.html-114,200,,Thread Group 1-1,text,true,,1923,569,5,5,https://advantageonlineshopping.com/app/views/shoppingCart.html,301,0,0
+1666055343701,525,Click Item/css/images/category_banner_4.png-94,200,,Thread Group 1-3,bin,true,,462485,632,5,5,https://advantageonlineshopping.com/css/images/category_banner_4.png,258,0,0
+1666055343963,265,Launch/css/images/facebook.png-78,200,,Thread Group 1-5,bin,true,,1981,623,5,5,https://advantageonlineshopping.com/css/images/facebook.png,265,0,0
+1666055343968,261,Launch/css/images/twitter.png-79,200,,Thread Group 1-4,bin,true,,2462,622,5,5,https://advantageonlineshopping.com/css/images/twitter.png,261,0,0
+1666055343982,362,Choose Item/catalog/api/v1/products/20-104,200,,Thread Group 1-2,text,true,,1012,592,5,5,https://advantageonlineshopping.com/catalog/api/v1/products/20,362,0,0
+1666055344221,302,Click Cart/css/images/Master_credit.png-115,200,,Thread Group 1-1,bin,true,,2049,628,5,5,https://advantageonlineshopping.com/css/images/Master_credit.png,302,0,0
+1666055344229,300,Launch/css/images/twitter.png-79,200,,Thread Group 1-5,bin,true,,2462,622,5,5,https://advantageonlineshopping.com/css/images/twitter.png,300,0,0
+1666055344226,308,Click Item/catalog/fetchImage-100,200,,Thread Group 1-3,bin,true,,50894,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4400,308,0,0
+1666055344230,306,Launch/css/images/Special-offer.jpg-75,200,,Thread Group 1-4,bin,true,,81227,628,5,5,https://advantageonlineshopping.com/css/images/Special-offer.jpg,306,0,0
+1666055344526,302,Click Cart/css/images/SafePay.png-116,200,,Thread Group 1-1,bin,true,,5048,622,5,5,https://advantageonlineshopping.com/css/images/SafePay.png,302,0,0
+1666055344530,300,Launch/css/images/Special-offer.jpg-75,200,,Thread Group 1-5,bin,true,,81227,628,5,5,https://advantageonlineshopping.com/css/images/Special-offer.jpg,299,0,0
+1666055344537,293,Launch/css/images/linkedin.png-80,200,,Thread Group 1-4,bin,true,,2105,623,5,5,https://advantageonlineshopping.com/css/images/linkedin.png,293,0,0
+1666055344534,297,Click Item/catalog/fetchImage-101,200,,Thread Group 1-3,bin,true,,71232,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4100,297,0,0
+1666055344830,302,Launch/css/images/linkedin.png-80,200,,Thread Group 1-5,bin,true,,2105,623,5,5,https://advantageonlineshopping.com/css/images/linkedin.png,302,0,0
+1666055344831,302,Launch/css/images/Banner2.jpg-82,200,,Thread Group 1-4,bin,true,,85492,622,5,5,https://advantageonlineshopping.com/css/images/Banner2.jpg,302,0,0
+1666055344831,304,Click Item/catalog/fetchImage-102,200,,Thread Group 1-3,bin,true,,59219,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4500,303,0,0
+1666055344828,309,Click Checkout/accountservice/ws/GetAccountByIdRequest-117,200,,Thread Group 1-1,text,true,,1882,1258,5,5,https://advantageonlineshopping.com/accountservice/ws/GetAccountByIdRequest,309,0,0
+1666055344345,885,Choose Item/catalog/api/v1/categories/all_data-103,200,,Thread Group 1-2,text,true,,8901,600,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/all_data,884,0,0
+1666055345134,304,Launch/css/images/Popular-item3.jpg-84,200,,Thread Group 1-4,bin,true,,26379,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item3.jpg,304,0,0
+1666055345132,306,Launch/css/images/Banner2.jpg-82,200,,Thread Group 1-5,bin,true,,85492,622,5,5,https://advantageonlineshopping.com/css/images/Banner2.jpg,305,0,0
+1666055345138,300,Click Checkout/accountservice/ws/GetAccountByIdNewRequest-118,200,,Thread Group 1-1,text,true,,1813,1270,5,5,https://advantageonlineshopping.com/accountservice/ws/GetAccountByIdNewRequest,300,0,0
+1666055345135,351,Choose Item/catalog/api/v1/products/20-104,200,,Thread Group 1-3,text,true,,1012,592,5,5,https://advantageonlineshopping.com/catalog/api/v1/products/20,351,0,0
+1666055345438,308,Launch/css/images/Popular-item3.jpg-84,200,,Thread Group 1-5,bin,true,,26379,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item3.jpg,308,0,0
+1666055345438,309,Launch/css/images/Popular-item2.jpg-85,200,,Thread Group 1-4,bin,true,,28488,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item2.jpg,309,0,0
+1666055345230,519,Choose Item/catalog/api/v1/categories/4/products-105,200,,Thread Group 1-2,text,true,,2410,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/4/products,519,0,0
+1666055345439,449,Click Checkout/order/api/v1/carts/800075438-119,200,,Thread Group 1-1,text,true,,760,641,5,5,https://advantageonlineshopping.com/order/api/v1/carts/800075438,449,0,0
+1666055345746,256,Launch/css/images/Popular-item2.jpg-85,200,,Thread Group 1-5,bin,true,,28488,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item2.jpg,256,0,0
+1666055345747,256,Launch/css/images/Banner3.jpg-83,200,,Thread Group 1-4,bin,true,,68857,622,5,5,https://advantageonlineshopping.com/css/images/Banner3.jpg,255,0,0
+1666055345749,254,Choose Item/app/views/product-page.html-107,200,,Thread Group 1-2,text,true,,2818,569,5,5,https://advantageonlineshopping.com/app/views/product-page.html,254,0,0
+1666055345905,353,Click Checkout/order/api/v1/shippingcost/-120,200,,Thread Group 1-1,text,true,,686,965,5,5,https://advantageonlineshopping.com/order/api/v1/shippingcost/,353,0,0
+1666055346003,276,Launch/css/images/Banner3.jpg-83,200,,Thread Group 1-5,bin,true,,68857,622,5,5,https://advantageonlineshopping.com/css/images/Banner3.jpg,276,0,0
+1666055345486,824,Choose Item/catalog/api/v1/categories/all_data-103,200,,Thread Group 1-3,text,true,,8932,600,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/all_data,824,0,0
+1666055346310,563,Choose Item/catalog/api/v1/categories/4/products-105,200,,Thread Group 1-3,text,true,,2413,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/4/products,563,0,0
+1666055346003,871,Launch/css/images/Banner1.jpg-81,200,,Thread Group 1-4,bin,true,,496781,622,5,5,https://advantageonlineshopping.com/css/images/Banner1.jpg,274,0,0
+1666055346259,787,Click Checkout/accountservice/ws/GetAccountPaymentPreferencesRequest-121,200,,Thread Group 1-1,text,true,,1240,1314,5,5,https://advantageonlineshopping.com/accountservice/ws/GetAccountPaymentPreferencesRequest,787,0,0
+1666055346004,1121,Choose Item/treatment/get-106,200,OK,Thread Group 1-2,text,true,,734,2498,5,5,https://treatment.grammarly.com/treatment/get,1121,0,870
+1666055346873,255,Choose Item/app/views/product-page.html-107,200,,Thread Group 1-3,text,true,,2818,569,5,5,https://advantageonlineshopping.com/app/views/product-page.html,255,0,0
+1666055346873,259,Launch/css/images/Popular-item1.jpg-86,200,,Thread Group 1-4,bin,true,,43138,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item1.jpg,259,0,0
+1666055347125,116,Choose Item/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSTwlUzTP1oFGzihIFDeeNQA4SBQ3OQUx6EgUNeG8SGRIFDQ8WvisSBQ3yF2yJEgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=-111,200,OK,Thread Group 1-2,text,true,,665,752,5,5,https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSTwlUzTP1oFGzihIFDeeNQA4SBQ3OQUx6EgUNeG8SGRIFDQ8WvisSBQ3yF2yJEgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=?alt=proto,116,0,55
+1666055347045,253,Click Checkout/app/order/views/orderPayment-page.html-122,200,,Thread Group 1-1,text,true,,1372,580,5,5,https://advantageonlineshopping.com/app/order/views/orderPayment-page.html,253,0,0
+1666055347298,69,Click Checkout/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSsQEJ0tKb5yhiIOgSBQ3njUAOEgUNzkFMehIFDXhvEhkSBQ0PFr4rEgUN77-NcxIFDQCgC8oSBQ1zED5aEgUNRS1WTBIFDUZnFX0SBQ2U1FseEgUNbtcpCxIFDYyqZn0SBQ2wnA4MEgUNftzV1BIFDaOKs4QSBQ0ZLMSKEgUNNzxzBBIFDZOoA5USBQ1e6_S9EgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=-128,200,OK,Thread Group 1-1,text,true,,745,884,5,5,https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSsQEJ0tKb5yhiIOgSBQ3njUAOEgUNzkFMehIFDXhvEhkSBQ0PFr4rEgUN77-NcxIFDQCgC8oSBQ1zED5aEgUNRS1WTBIFDUZnFX0SBQ2U1FseEgUNbtcpCxIFDYyqZn0SBQ2wnA4MEgUNftzV1BIFDaOKs4QSBQ0ZLMSKEgUNNzxzBBIFDZOoA5USBQ1e6_S9EgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=?alt=proto,69,0,0
+1666055346279,1101,Launch/css/images/Banner1.jpg-81,200,,Thread Group 1-5,bin,true,,496781,622,5,5,https://advantageonlineshopping.com/css/images/Banner1.jpg,291,0,0
+1666055347132,254,Login/css/images/FacebookLogo.png-87,200,,Thread Group 1-4,bin,true,,1427,643,5,5,https://advantageonlineshopping.com/css/images/FacebookLogo.png,254,0,0
+1666055347241,251,Choose Item/css/images/review_Left_disabled.png-110,200,,Thread Group 1-2,bin,true,,1485,635,5,5,https://advantageonlineshopping.com/css/images/review_Left_disabled.png,251,0,0
+1666055347367,324,Click Checkout/css/images/Bell.png-123,200,,Thread Group 1-1,bin,true,,1717,635,5,5,https://advantageonlineshopping.com/css/images/Bell.png,324,0,0
+1666055347379,313,Launch/css/images/Popular-item1.jpg-86,200,,Thread Group 1-5,bin,true,,43138,628,5,5,https://advantageonlineshopping.com/css/images/Popular-item1.jpg,313,0,0
+1666055347386,309,Login/css/main.min.css-88,200,,Thread Group 1-4,text,true,,30601,632,5,5,https://advantageonlineshopping.com/css/main.min.css,307,0,0
+1666055347493,252,Choose Item/css/images/reviewUser.png-109,200,,Thread Group 1-2,bin,true,,1940,625,5,5,https://advantageonlineshopping.com/css/images/reviewUser.png,251,0,0
+1666055347692,304,Login/css/images/FacebookLogo.png-87,200,,Thread Group 1-5,bin,true,,1427,643,5,5,https://advantageonlineshopping.com/css/images/FacebookLogo.png,304,0,0
+1666055347691,305,Click Checkout/accountservice/ws/GetCountriesRequest-124,200,,Thread Group 1-1,text,true,,5004,1161,5,5,https://advantageonlineshopping.com/accountservice/ws/GetCountriesRequest,305,0,0
+1666055347745,252,Choose Item/css/images/review_right.png-108,200,,Thread Group 1-2,bin,true,,1473,627,5,5,https://advantageonlineshopping.com/css/images/review_right.png,252,0,0
+1666055347695,366,Login/accountservice/ws/AccountLoginRequest-89,200,,Thread Group 1-4,text,true,,1541,1247,5,5,https://advantageonlineshopping.com/accountservice/ws/AccountLoginRequest,366,0,0
+1666055347997,307,Click Checkout/css/images/Check.png-125,200,,Thread Group 1-1,bin,true,,3547,636,5,5,https://advantageonlineshopping.com/css/images/Check.png,307,0,0
+1666055347130,1175,Choose Item/treatment/get-106,200,OK,Thread Group 1-3,text,true,,734,2498,5,5,https://treatment.grammarly.com/treatment/get,1175,0,867
+1666055347997,309,Login/css/main.min.css-88,200,,Thread Group 1-5,text,true,,30595,632,5,5,https://advantageonlineshopping.com/css/main.min.css,308,0,0
+1666055348307,104,Choose Item/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSTwlUzTP1oFGzihIFDeeNQA4SBQ3OQUx6EgUNeG8SGRIFDQ8WvisSBQ3yF2yJEgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=-111,200,OK,Thread Group 1-3,text,true,,665,752,5,5,https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSTwlUzTP1oFGzihIFDeeNQA4SBQ3OQUx6EgUNeG8SGRIFDQ8WvisSBQ3yF2yJEgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=?alt=proto,104,0,31
+1666055348062,351,Login/order/api/v1/carts/800075438-90,200,,Thread Group 1-4,text,true,,622,641,5,5,https://advantageonlineshopping.com/order/api/v1/carts/417262582,351,0,0
+1666055347997,544,Click Add to Cart/order/api/v1/carts/800075438/product/20/color/414141?quantity=1-112,201,,Thread Group 1-2,text,true,,853,833,5,5,https://advantageonlineshopping.com/order/api/v1/carts/646040722/product/20/color/414141?quantity=1,544,0,0
+1666055348304,253,Click Checkout/css/images/User.jpg-126,200,,Thread Group 1-1,bin,true,,5292,619,5,5,https://advantageonlineshopping.com/css/images/User.jpg,253,0,0
+1666055348306,324,Login/accountservice/ws/AccountLoginRequest-89,200,,Thread Group 1-5,text,true,,1541,1247,5,5,https://advantageonlineshopping.com/accountservice/ws/AccountLoginRequest,324,0,0
+1666055348412,251,Choose Item/css/images/review_Left_disabled.png-110,200,,Thread Group 1-3,bin,true,,1485,635,5,5,https://advantageonlineshopping.com/css/images/review_Left_disabled.png,251,0,0
+1666055348558,257,Click Checkout/css/images/Shipex.png-127,200,,Thread Group 1-1,bin,true,,2588,621,5,5,https://advantageonlineshopping.com/css/images/Shipex.png,257,0,0
+1666055348664,257,Choose Item/css/images/reviewUser.png-109,200,,Thread Group 1-3,bin,true,,1940,625,5,5,https://advantageonlineshopping.com/css/images/reviewUser.png,257,0,0
+1666055348414,515,Click Item/catalog/api/v1/categories/4/products-91,200,,Thread Group 1-4,text,true,,2402,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/4/products,515,0,0
+1666055348630,335,Login/order/api/v1/carts/800075438-90,200,,Thread Group 1-5,text,true,,621,641,5,5,https://advantageonlineshopping.com/order/api/v1/carts/558222082,335,0,0
+1666055348541,433,Click Cart/order/api/v1/carts/800075438-113,200,,Thread Group 1-2,text,true,,760,641,5,5,https://advantageonlineshopping.com/order/api/v1/carts/646040722,432,0,0
+1666055348815,264,Click Pay Now/accountservice/ws/UpdateSafePayMethodRequest-129,200,,Thread Group 1-1,text,true,,1161,1396,5,5,https://advantageonlineshopping.com/accountservice/ws/UpdateSafePayMethodRequest,263,0,0
+1666055348921,252,Choose Item/css/images/review_right.png-108,200,,Thread Group 1-3,bin,true,,1473,627,5,5,https://advantageonlineshopping.com/css/images/review_right.png,252,0,0
+1666055348995,261,Click Cart/app/views/shoppingCart.html-114,200,,Thread Group 1-2,text,true,,1923,569,5,5,https://advantageonlineshopping.com/app/views/shoppingCart.html,252,0,0
+1666055348929,455,Click Item/catalog/api/v1/categories/attributes-92,200,,Thread Group 1-4,text,true,,984,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/attributes,444,0,0
+1666055348965,502,Click Item/catalog/api/v1/categories/4/products-91,200,,Thread Group 1-5,text,true,,2410,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/4/products,502,0,0
+1666055349256,253,Click Cart/css/images/Master_credit.png-115,200,,Thread Group 1-2,bin,true,,2049,628,5,5,https://advantageonlineshopping.com/css/images/Master_credit.png,253,0,0
+1666055349079,497,Click Pay Now/order/api/v1/orders/users/800075438-130,200,,Thread Group 1-1,text,true,,722,1743,5,5,https://advantageonlineshopping.com/order/api/v1/orders/users/800075438,496,0,0
+1666055349385,262,Click Item/app/views/category-page.html-93,200,,Thread Group 1-4,text,true,,1154,570,5,5,https://advantageonlineshopping.com/app/views/category-page.html,262,0,0
+1666055349174,555,Click Add to Cart/order/api/v1/carts/800075438/product/20/color/414141?quantity=1-112,201,,Thread Group 1-3,text,true,,855,833,5,5,https://advantageonlineshopping.com/order/api/v1/carts/788523108/product/20/color/414141?quantity=1,555,0,0
+1666055349509,252,Click Cart/css/images/SafePay.png-116,200,,Thread Group 1-2,bin,true,,5048,622,5,5,https://advantageonlineshopping.com/css/images/SafePay.png,252,0,0
+1666055349647,295,Click Item/css/images/Filter.png-99,200,,Thread Group 1-4,bin,true,,1813,621,5,5,https://advantageonlineshopping.com/css/images/Filter.png,295,0,0
+1666055349468,474,Click Item/catalog/api/v1/categories/attributes-92,200,,Thread Group 1-5,text,true,,984,602,5,5,https://advantageonlineshopping.com/catalog/api/v1/categories/attributes,474,0,0
+1666055349576,367,Click Pay Now/order/api/v1/carts/800075438-131,200,,Thread Group 1-1,text,true,,626,772,5,5,https://advantageonlineshopping.com/order/api/v1/carts/800075438,367,0,0
+1666055349761,286,Click Checkout/accountservice/ws/GetAccountByIdRequest-117,200,,Thread Group 1-2,text,true,,1882,1258,5,5,https://advantageonlineshopping.com/accountservice/ws/GetAccountByIdRequest,286,0,0
+1666055349729,521,Click Cart/order/api/v1/carts/800075438-113,200,,Thread Group 1-3,text,true,,759,641,5,5,https://advantageonlineshopping.com/order/api/v1/carts/788523108,521,0,0
+1666055349942,311,Click Item/catalog/fetchImage-95,200,,Thread Group 1-4,bin,true,,47215,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4200,311,0,0
+1666055349943,311,Click Item/app/views/category-page.html-93,200,,Thread Group 1-5,text,true,,1154,570,5,5,https://advantageonlineshopping.com/app/views/category-page.html,311,0,0
+1666055349944,312,Click Pay Now/batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3Dmznc1rypis9v%3D%3D%3D%3D%3D%22&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ-134,200,OK,Thread Group 1-1,text,true,,1425,2953,5,5,https://clients6.google.com/batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3Dmznc1rypis9v%3D%3D%3D%3D%3D%22&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ,312,0,48
+1666055350048,284,Click Checkout/accountservice/ws/GetAccountByIdNewRequest-118,200,,Thread Group 1-2,text,true,,1813,1270,5,5,https://advantageonlineshopping.com/accountservice/ws/GetAccountByIdNewRequest,284,0,0
+1666055350254,304,Click Item/css/images/Filter.png-99,200,,Thread Group 1-5,bin,true,,1813,621,5,5,https://advantageonlineshopping.com/css/images/Filter.png,304,0,0
+1666055350254,305,Click Item/catalog/fetchImage-96,200,,Thread Group 1-4,bin,true,,54453,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4700,304,0,0
+1666055350250,312,Click Cart/app/views/shoppingCart.html-114,200,,Thread Group 1-3,text,true,,1923,569,5,5,https://advantageonlineshopping.com/app/views/shoppingCart.html,311,0,0
+1666055350256,306,Click Pay Now/offline/common/serviceworker.js-135,200,OK,Thread Group 1-1,text,true,,2342,695,5,5,https://docs.google.com/offline/common/serviceworker.js?ouid=u3259a141c2399882&oucvi=true,306,0,41
+1666055350563,21,Click Pay Now/static/offline/client/js/2561097574-offline_sw_bin_offline_main.js-136,200,OK,Thread Group 1-1,text,true,,73968,661,5,5,https://docs.google.com/static/offline/client/js/2561097574-offline_sw_bin_offline_main.js,9,0,0
+1666055350332,537,Click Checkout/order/api/v1/carts/800075438-119,200,,Thread Group 1-2,text,true,,760,641,5,5,https://advantageonlineshopping.com/order/api/v1/carts/646040722,534,0,0
+1666055350559,311,Click Item/catalog/fetchImage-95,200,,Thread Group 1-5,bin,true,,47207,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4200,311,0,0
+1666055350562,310,Click Cart/css/images/Master_credit.png-115,200,,Thread Group 1-3,bin,true,,2049,628,5,5,https://advantageonlineshopping.com/css/images/Master_credit.png,310,0,0
+1666055350560,312,Click Item/catalog/fetchImage-98,200,,Thread Group 1-4,bin,true,,50132,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4300,312,0,0
+1666055350872,300,Click Cart/css/images/SafePay.png-116,200,,Thread Group 1-3,bin,true,,5048,622,5,5,https://advantageonlineshopping.com/css/images/SafePay.png,300,0,0
+1666055350871,314,Click Item/catalog/fetchImage-96,200,,Thread Group 1-5,bin,true,,54453,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4700,314,0,0
+1666055350873,314,Click Item/catalog/fetchImage-97,200,,Thread Group 1-4,bin,true,,72198,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4600,313,0,0
+1666055350869,319,Click Checkout/order/api/v1/shippingcost/-120,200,,Thread Group 1-2,text,true,,686,965,5,5,https://advantageonlineshopping.com/order/api/v1/shippingcost/,319,0,0
+1666055351186,298,Click Item/catalog/fetchImage-98,200,,Thread Group 1-5,bin,true,,50132,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4300,298,0,0
+1666055351172,330,Click Checkout/accountservice/ws/GetAccountByIdRequest-117,200,,Thread Group 1-3,text,true,,1882,1258,5,5,https://advantageonlineshopping.com/accountservice/ws/GetAccountByIdRequest,330,0,0
+1666055351188,314,Click Checkout/accountservice/ws/GetAccountPaymentPreferencesRequest-121,200,,Thread Group 1-2,text,true,,973,1314,5,5,https://advantageonlineshopping.com/accountservice/ws/GetAccountPaymentPreferencesRequest,314,0,0
+1666055350585,1151,Click P/v3/user/oranonymous?field=frontend_primaryLanguage&field=frontend_soundFluent&field=frontend_role&containerId=ND3BsujF1Vrx-137,200,OK,Thread Group 1-1,text,true,,1796,879,5,5,https://auth.grammarly.com/v3/user/oranonymous?field=frontend_primaryLanguage&field=frontend_soundFluent&field=frontend_role&containerId=ND3BsujF1Vrx,1151,0,894
+1666055351503,252,Click Checkout/app/order/views/orderPayment-page.html-122,200,,Thread Group 1-2,text,true,,1372,580,5,5,https://advantageonlineshopping.com/app/order/views/orderPayment-page.html,252,0,0
+1666055351499,261,Click Item/catalog/fetchImage-97,200,,Thread Group 1-5,bin,true,,72214,632,5,5,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4600,261,0,0
+1666055351503,282,Click Checkout/accountservice/ws/GetAccountByIdNewRequest-118,200,,Thread Group 1-3,text,true,,1813,1270,5,5,https://advantageonlineshopping.com/accountservice/ws/GetAccountByIdNewRequest,282,0,0
+1666055351756,60,Click Checkout/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSsQEJ0tKb5yhiIOgSBQ3njUAOEgUNzkFMehIFDXhvEhkSBQ0PFr4rEgUN77-NcxIFDQCgC8oSBQ1zED5aEgUNRS1WTBIFDUZnFX0SBQ2U1FseEgUNbtcpCxIFDYyqZn0SBQ2wnA4MEgUNftzV1BIFDaOKs4QSBQ0ZLMSKEgUNNzxzBBIFDZOoA5USBQ1e6_S9EgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=-128,200,OK,Thread Group 1-2,text,true,,745,884,5,5,https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSsQEJ0tKb5yhiIOgSBQ3njUAOEgUNzkFMehIFDXhvEhkSBQ0PFr4rEgUN77-NcxIFDQCgC8oSBQ1zED5aEgUNRS1WTBIFDUZnFX0SBQ2U1FseEgUNbtcpCxIFDYyqZn0SBQ2wnA4MEgUNftzV1BIFDaOKs4QSBQ0ZLMSKEgUNNzxzBBIFDZOoA5USBQ1e6_S9EgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=?alt=proto,60,0,0
+1666055351737,106,Click Profile/treatment/get-138,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: treatment.grammarly.com:443 failed to respond,Thread Group 1-1,text,false,,2104,0,5,5,https://treatment.grammarly.com/treatment/get,0,0,0
+1666055351817,285,Click Checkout/css/images/Bell.png-123,200,,Thread Group 1-2,bin,true,,1717,635,4,4,https://advantageonlineshopping.com/css/images/Bell.png,285,0,0
+1666055351187,913,Click Item/css/images/category_banner_4.png-94,200,,Thread Group 1-4,bin,true,,462485,632,4,4,https://advantageonlineshopping.com/css/images/category_banner_4.png,295,0,0
+1666055351786,420,Click Checkout/order/api/v1/carts/800075438-119,200,,Thread Group 1-3,text,true,,756,641,4,4,https://advantageonlineshopping.com/order/api/v1/carts/788523108,420,0,0
+1666055351763,594,Click Item/css/images/category_banner_4.png-94,200,,Thread Group 1-5,bin,true,,462485,632,4,4,https://advantageonlineshopping.com/css/images/category_banner_4.png,338,0,0
+1666055352109,257,Click Item/catalog/fetchImage-100,200,,Thread Group 1-4,bin,true,,50887,632,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4400,257,0,0
+1666055352109,258,Click Checkout/accountservice/ws/GetCountriesRequest-124,200,,Thread Group 1-2,text,true,,5004,1161,4,4,https://advantageonlineshopping.com/accountservice/ws/GetCountriesRequest,258,0,0
+1666055352206,270,Click Checkout/order/api/v1/shippingcost/-120,200,,Thread Group 1-3,text,true,,686,965,4,4,https://advantageonlineshopping.com/order/api/v1/shippingcost/,270,0,0
+1666055352368,341,Click Checkout/css/images/Check.png-125,200,,Thread Group 1-2,bin,true,,3547,636,4,4,https://advantageonlineshopping.com/css/images/Check.png,341,0,0
+1666055352358,351,Click Item/catalog/fetchImage-100,200,,Thread Group 1-5,bin,true,,50887,632,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4400,351,0,0
+1666055352367,343,Click Item/catalog/fetchImage-101,200,,Thread Group 1-4,bin,true,,71223,632,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4100,343,0,0
+1666055352476,293,Click Checkout/accountservice/ws/GetAccountPaymentPreferencesRequest-121,200,,Thread Group 1-3,text,true,,973,1314,4,4,https://advantageonlineshopping.com/accountservice/ws/GetAccountPaymentPreferencesRequest,293,0,0
+1666055352709,307,Click Checkout/css/images/User.jpg-126,200,,Thread Group 1-2,bin,true,,5292,619,4,4,https://advantageonlineshopping.com/css/images/User.jpg,307,0,0
+1666055352709,310,Click Item/catalog/fetchImage-101,200,,Thread Group 1-5,bin,true,,71254,632,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4100,310,0,0
+1666055352710,310,Click Item/catalog/fetchImage-102,200,,Thread Group 1-4,bin,true,,59212,632,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4500,309,0,0
+1666055352769,253,Click Checkout/app/order/views/orderPayment-page.html-122,200,,Thread Group 1-3,text,true,,1372,580,4,4,https://advantageonlineshopping.com/app/order/views/orderPayment-page.html,253,0,0
+1666055353022,66,Click Checkout/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSsQEJ0tKb5yhiIOgSBQ3njUAOEgUNzkFMehIFDXhvEhkSBQ0PFr4rEgUN77-NcxIFDQCgC8oSBQ1zED5aEgUNRS1WTBIFDUZnFX0SBQ2U1FseEgUNbtcpCxIFDYyqZn0SBQ2wnA4MEgUNftzV1BIFDaOKs4QSBQ0ZLMSKEgUNNzxzBBIFDZOoA5USBQ1e6_S9EgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=-128,200,OK,Thread Group 1-3,text,true,,745,884,4,4,https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSsQEJ0tKb5yhiIOgSBQ3njUAOEgUNzkFMehIFDXhvEhkSBQ0PFr4rEgUN77-NcxIFDQCgC8oSBQ1zED5aEgUNRS1WTBIFDUZnFX0SBQ2U1FseEgUNbtcpCxIFDYyqZn0SBQ2wnA4MEgUNftzV1BIFDaOKs4QSBQ0ZLMSKEgUNNzxzBBIFDZOoA5USBQ1e6_S9EgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=?alt=proto,66,0,0
+1666055353017,306,Click Checkout/css/images/Shipex.png-127,200,,Thread Group 1-2,bin,true,,2588,621,4,4,https://advantageonlineshopping.com/css/images/Shipex.png,306,0,0
+1666055353020,303,Click Item/catalog/fetchImage-102,200,,Thread Group 1-5,bin,true,,59211,632,4,4,https://advantageonlineshopping.com/catalog/fetchImage?image_id=4500,303,0,0
+1666055353088,253,Click Checkout/css/images/Bell.png-123,200,,Thread Group 1-3,bin,true,,1717,635,4,4,https://advantageonlineshopping.com/css/images/Bell.png,253,0,0
+1666055353020,347,Choose Item/catalog/api/v1/products/20-104,200,,Thread Group 1-4,text,true,,1011,592,4,4,https://advantageonlineshopping.com/catalog/api/v1/products/20,347,0,0
+1666055353341,289,Click Checkout/accountservice/ws/GetCountriesRequest-124,200,,Thread Group 1-3,text,true,,4998,1161,4,4,https://advantageonlineshopping.com/accountservice/ws/GetCountriesRequest,288,0,0
+1666055353324,305,Click Pay Now/accountservice/ws/UpdateSafePayMethodRequest-129,200,,Thread Group 1-2,text,true,,1176,1396,4,4,https://advantageonlineshopping.com/accountservice/ws/UpdateSafePayMethodRequest,305,0,0
+1666055353323,343,Choose Item/catalog/api/v1/products/20-104,200,,Thread Group 1-5,text,true,,1011,592,4,4,https://advantageonlineshopping.com/catalog/api/v1/products/20,343,0,0
+1666055353658,278,Click Checkout/css/images/Check.png-125,200,,Thread Group 1-3,bin,true,,3547,636,4,4,https://advantageonlineshopping.com/css/images/Check.png,278,0,0
+1666055353936,307,Click Checkout/css/images/User.jpg-126,200,,Thread Group 1-3,bin,true,,5292,619,4,4,https://advantageonlineshopping.com/css/images/User.jpg,307,0,0
+1666055353367,877,Choose Item/catalog/api/v1/categories/all_data-103,200,,Thread Group 1-4,text,true,,8918,600,4,4,https://advantageonlineshopping.com/catalog/api/v1/categories/all_data,876,0,0
+1666055353658,586,Click Pay Now/order/api/v1/orders/users/800075438-130,200,,Thread Group 1-2,text,true,,722,1743,4,4,https://advantageonlineshopping.com/order/api/v1/orders/users/646040722,586,0,0
+1666055354244,307,Click Checkout/css/images/Shipex.png-127,200,,Thread Group 1-3,bin,true,,2588,621,4,4,https://advantageonlineshopping.com/css/images/Shipex.png,307,0,0
+1666055353666,885,Choose Item/catalog/api/v1/categories/all_data-103,200,,Thread Group 1-5,text,true,,8875,600,4,4,https://advantageonlineshopping.com/catalog/api/v1/categories/all_data,885,0,0
+1666055354245,348,Click Pay Now/order/api/v1/carts/800075438-131,200,,Thread Group 1-2,text,true,,626,772,4,4,https://advantageonlineshopping.com/order/api/v1/carts/646040722,348,0,0
+1666055354244,499,Choose Item/catalog/api/v1/categories/4/products-105,200,,Thread Group 1-4,text,true,,2410,602,4,4,https://advantageonlineshopping.com/catalog/api/v1/categories/4/products,499,0,0
+1666055354551,262,Click Pay Now/accountservice/ws/UpdateSafePayMethodRequest-129,200,,Thread Group 1-3,text,true,,1176,1396,4,4,https://advantageonlineshopping.com/accountservice/ws/UpdateSafePayMethodRequest,262,0,0
+1666055354594,260,Click Pay Now/batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3Dmznc1rypis9v%3D%3D%3D%3D%3D%22&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ-134,200,OK,Thread Group 1-2,text,true,,1408,2953,4,4,https://clients6.google.com/batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3Dmznc1rypis9v%3D%3D%3D%3D%3D%22&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ,256,0,30
+1666055354744,319,Choose Item/app/views/product-page.html-107,200,,Thread Group 1-4,text,true,,2818,569,4,4,https://advantageonlineshopping.com/app/views/product-page.html,318,0,0
+1666055354551,512,Choose Item/catalog/api/v1/categories/4/products-105,200,,Thread Group 1-5,text,true,,2413,602,4,4,https://advantageonlineshopping.com/catalog/api/v1/categories/4/products,511,0,0
+1666055354854,272,Click Pay Now/offline/common/serviceworker.js-135,200,OK,Thread Group 1-2,text,true,,2238,695,4,4,https://docs.google.com/offline/common/serviceworker.js?ouid=u3259a141c2399882&oucvi=true,272,0,30
+1666055355126,19,Click Pay Now/static/offline/client/js/2561097574-offline_sw_bin_offline_main.js-136,200,OK,Thread Group 1-2,text,true,,73968,661,4,4,https://docs.google.com/static/offline/client/js/2561097574-offline_sw_bin_offline_main.js,7,0,0
+1666055354814,557,Click Pay Now/order/api/v1/orders/users/800075438-130,200,,Thread Group 1-3,text,true,,720,1743,4,4,https://advantageonlineshopping.com/order/api/v1/orders/users/788523108,557,0,0
+1666055355063,316,Choose Item/app/views/product-page.html-107,200,,Thread Group 1-5,text,true,,2818,569,4,4,https://advantageonlineshopping.com/app/views/product-page.html,316,0,0
+1666055355371,344,Click Pay Now/order/api/v1/carts/800075438-131,200,,Thread Group 1-3,text,true,,626,772,4,4,https://advantageonlineshopping.com/order/api/v1/carts/788523108,344,0,0
+1666055355715,280,Click Pay Now/batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3Dmznc1rypis9v%3D%3D%3D%3D%3D%22&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ-134,200,OK,Thread Group 1-3,text,true,,1353,2953,4,4,https://clients6.google.com/batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3Dmznc1rypis9v%3D%3D%3D%3D%3D%22&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ,280,0,36
+1666055355146,1146,Click P/v3/user/oranonymous?field=frontend_primaryLanguage&field=frontend_soundFluent&field=frontend_role&containerId=ND3BsujF1Vrx-137,200,OK,Thread Group 1-2,text,true,,1796,879,4,4,https://auth.grammarly.com/v3/user/oranonymous?field=frontend_primaryLanguage&field=frontend_soundFluent&field=frontend_role&containerId=ND3BsujF1Vrx,1146,0,847
+1666055355063,1229,Choose Item/treatment/get-106,200,OK,Thread Group 1-4,text,true,,734,2498,4,4,https://treatment.grammarly.com/treatment/get,1229,0,930
+1666055355996,299,Click Pay Now/offline/common/serviceworker.js-135,200,OK,Thread Group 1-3,text,true,,2241,695,4,4,https://docs.google.com/offline/common/serviceworker.js?ouid=u3259a141c2399882&oucvi=true,299,0,32
+1666055356295,20,Click Pay Now/static/offline/client/js/2561097574-offline_sw_bin_offline_main.js-136,200,OK,Thread Group 1-3,text,true,,73968,661,4,4,https://docs.google.com/static/offline/client/js/2561097574-offline_sw_bin_offline_main.js,9,0,0
+1666055356293,98,Choose Item/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSTwlUzTP1oFGzihIFDeeNQA4SBQ3OQUx6EgUNeG8SGRIFDQ8WvisSBQ3yF2yJEgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=-111,200,OK,Thread Group 1-4,text,true,,665,752,4,4,https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSTwlUzTP1oFGzihIFDeeNQA4SBQ3OQUx6EgUNeG8SGRIFDQ8WvisSBQ3yF2yJEgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=?alt=proto,98,0,34
+1666055356292,315,Click Profile/treatment/get-138,200,OK,Thread Group 1-2,text,true,,734,2498,4,4,https://treatment.grammarly.com/treatment/get,315,0,0
+1666055355380,1228,Choose Item/treatment/get-106,200,OK,Thread Group 1-5,text,true,,734,2498,4,4,https://treatment.grammarly.com/treatment/get,1228,0,914
+1666055356391,257,Choose Item/css/images/review_Left_disabled.png-110,200,,Thread Group 1-4,bin,true,,1485,635,4,4,https://advantageonlineshopping.com/css/images/review_Left_disabled.png,257,0,0
+1666055356609,99,Choose Item/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSTwlUzTP1oFGzihIFDeeNQA4SBQ3OQUx6EgUNeG8SGRIFDQ8WvisSBQ3yF2yJEgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=-111,200,OK,Thread Group 1-5,text,true,,665,752,4,4,https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSTwlUzTP1oFGzihIFDeeNQA4SBQ3OQUx6EgUNeG8SGRIFDQ8WvisSBQ3yF2yJEgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=?alt=proto,99,0,37
+1666055356607,253,Click Profile/treatment/get-139,200,OK,Thread Group 1-2,text,true,,734,2498,4,4,https://treatment.grammarly.com/treatment/get,253,0,0
+1666055356648,255,Choose Item/css/images/reviewUser.png-109,200,,Thread Group 1-4,bin,true,,1940,625,4,4,https://advantageonlineshopping.com/css/images/reviewUser.png,255,0,0
+1666055356709,255,Choose Item/css/images/review_Left_disabled.png-110,200,,Thread Group 1-5,bin,true,,1485,635,4,4,https://advantageonlineshopping.com/css/images/review_Left_disabled.png,255,0,0
+1666055356902,317,Choose Item/css/images/review_right.png-108,200,,Thread Group 1-4,bin,true,,1473,627,4,4,https://advantageonlineshopping.com/css/images/review_right.png,317,0,0
+1666055356963,258,Choose Item/css/images/reviewUser.png-109,200,,Thread Group 1-5,bin,true,,1940,625,4,4,https://advantageonlineshopping.com/css/images/reviewUser.png,258,0,0
+1666055356859,362,Click Logout/accountservice/ws/AccountLogoutRequest-141,200,,Thread Group 1-2,text,true,,1155,1254,4,4,https://advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest,362,0,0
+1666055356317,1204,Click P/v3/user/oranonymous?field=frontend_primaryLanguage&field=frontend_soundFluent&field=frontend_role&containerId=ND3BsujF1Vrx-137,200,OK,Thread Group 1-3,text,true,,1796,879,3,3,https://auth.grammarly.com/v3/user/oranonymous?field=frontend_primaryLanguage&field=frontend_soundFluent&field=frontend_role&containerId=ND3BsujF1Vrx,1204,0,904
+1666055357221,302,Choose Item/css/images/review_right.png-108,200,,Thread Group 1-5,bin,true,,1473,627,3,3,https://advantageonlineshopping.com/css/images/review_right.png,302,0,0
+1666055357219,550,Click Add to Cart/order/api/v1/carts/800075438/product/20/color/414141?quantity=1-112,201,,Thread Group 1-4,text,true,,854,833,3,3,https://advantageonlineshopping.com/order/api/v1/carts/417262582/product/20/color/414141?quantity=1,550,0,0
+1666055357521,272,Click Profile/treatment/get-138,200,OK,Thread Group 1-3,text,true,,734,2498,3,3,https://treatment.grammarly.com/treatment/get,272,0,0
+1666055357524,611,Click Add to Cart/order/api/v1/carts/800075438/product/20/color/414141?quantity=1-112,201,,Thread Group 1-5,text,true,,854,833,3,3,https://advantageonlineshopping.com/order/api/v1/carts/558222082/product/20/color/414141?quantity=1,610,0,0
+1666055357793,351,Click Profile/treatment/get-139,200,OK,Thread Group 1-3,text,true,,734,2498,3,3,https://treatment.grammarly.com/treatment/get,351,0,0
+1666055357774,420,Click Cart/order/api/v1/carts/800075438-113,200,,Thread Group 1-4,text,true,,760,641,3,3,https://advantageonlineshopping.com/order/api/v1/carts/417262582,420,0,0
+1666055358194,255,Click Cart/app/views/shoppingCart.html-114,200,,Thread Group 1-4,text,true,,1923,569,3,3,https://advantageonlineshopping.com/app/views/shoppingCart.html,255,0,0
+1666055358145,361,Click Logout/accountservice/ws/AccountLogoutRequest-141,200,,Thread Group 1-3,text,true,,1155,1254,3,3,https://advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest,361,0,0
+1666055358135,422,Click Cart/order/api/v1/carts/800075438-113,200,,Thread Group 1-5,text,true,,759,641,2,2,https://advantageonlineshopping.com/order/api/v1/carts/558222082,422,0,0
+1666055358450,302,Click Cart/css/images/Master_credit.png-115,200,,Thread Group 1-4,bin,true,,2049,628,2,2,https://advantageonlineshopping.com/css/images/Master_credit.png,302,0,0
+1666055358557,253,Click Cart/app/views/shoppingCart.html-114,200,,Thread Group 1-5,text,true,,1923,569,2,2,https://advantageonlineshopping.com/app/views/shoppingCart.html,253,0,0
+1666055358755,301,Click Cart/css/images/SafePay.png-116,200,,Thread Group 1-4,bin,true,,5048,622,2,2,https://advantageonlineshopping.com/css/images/SafePay.png,301,0,0
+1666055358827,255,Click Cart/css/images/Master_credit.png-115,200,,Thread Group 1-5,bin,true,,2049,628,2,2,https://advantageonlineshopping.com/css/images/Master_credit.png,255,0,0
+1666055359082,281,Click Cart/css/images/SafePay.png-116,200,,Thread Group 1-5,bin,true,,5048,622,2,2,https://advantageonlineshopping.com/css/images/SafePay.png,280,0,0
+1666055359056,307,Click Checkout/accountservice/ws/GetAccountByIdRequest-117,200,,Thread Group 1-4,text,true,,1882,1258,2,2,https://advantageonlineshopping.com/accountservice/ws/GetAccountByIdRequest,307,0,0
+1666055359363,283,Click Checkout/accountservice/ws/GetAccountByIdRequest-117,200,,Thread Group 1-5,text,true,,1882,1258,2,2,https://advantageonlineshopping.com/accountservice/ws/GetAccountByIdRequest,283,0,0
+1666055359363,297,Click Checkout/accountservice/ws/GetAccountByIdNewRequest-118,200,,Thread Group 1-4,text,true,,1813,1270,2,2,https://advantageonlineshopping.com/accountservice/ws/GetAccountByIdNewRequest,297,0,0
+1666055359647,334,Click Checkout/accountservice/ws/GetAccountByIdNewRequest-118,200,,Thread Group 1-5,text,true,,1813,1270,2,2,https://advantageonlineshopping.com/accountservice/ws/GetAccountByIdNewRequest,334,0,0
+1666055359661,520,Click Checkout/order/api/v1/carts/800075438-119,200,,Thread Group 1-4,text,true,,754,641,2,2,https://advantageonlineshopping.com/order/api/v1/carts/417262582,520,0,0
+1666055359981,508,Click Checkout/order/api/v1/carts/800075438-119,200,,Thread Group 1-5,text,true,,760,641,2,2,https://advantageonlineshopping.com/order/api/v1/carts/558222082,508,0,0
+1666055360190,300,Click Checkout/order/api/v1/shippingcost/-120,200,,Thread Group 1-4,text,true,,686,965,2,2,https://advantageonlineshopping.com/order/api/v1/shippingcost/,300,0,0
+1666055360489,307,Click Checkout/order/api/v1/shippingcost/-120,200,,Thread Group 1-5,text,true,,686,965,2,2,https://advantageonlineshopping.com/order/api/v1/shippingcost/,307,0,0
+1666055360490,307,Click Checkout/accountservice/ws/GetAccountPaymentPreferencesRequest-121,200,,Thread Group 1-4,text,true,,973,1314,2,2,https://advantageonlineshopping.com/accountservice/ws/GetAccountPaymentPreferencesRequest,307,0,0
+1666055360797,255,Click Checkout/app/order/views/orderPayment-page.html-122,200,,Thread Group 1-4,text,true,,1372,580,2,2,https://advantageonlineshopping.com/app/order/views/orderPayment-page.html,255,0,0
+1666055360797,296,Click Checkout/accountservice/ws/GetAccountPaymentPreferencesRequest-121,200,,Thread Group 1-5,text,true,,973,1314,2,2,https://advantageonlineshopping.com/accountservice/ws/GetAccountPaymentPreferencesRequest,296,0,0
+1666055361062,67,Click Checkout/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSsQEJ0tKb5yhiIOgSBQ3njUAOEgUNzkFMehIFDXhvEhkSBQ0PFr4rEgUN77-NcxIFDQCgC8oSBQ1zED5aEgUNRS1WTBIFDUZnFX0SBQ2U1FseEgUNbtcpCxIFDYyqZn0SBQ2wnA4MEgUNftzV1BIFDaOKs4QSBQ0ZLMSKEgUNNzxzBBIFDZOoA5USBQ1e6_S9EgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=-128,200,OK,Thread Group 1-4,text,true,,745,884,2,2,https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSsQEJ0tKb5yhiIOgSBQ3njUAOEgUNzkFMehIFDXhvEhkSBQ0PFr4rEgUN77-NcxIFDQCgC8oSBQ1zED5aEgUNRS1WTBIFDUZnFX0SBQ2U1FseEgUNbtcpCxIFDYyqZn0SBQ2wnA4MEgUNftzV1BIFDaOKs4QSBQ0ZLMSKEgUNNzxzBBIFDZOoA5USBQ1e6_S9EgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=?alt=proto,67,0,0
+1666055361130,281,Click Checkout/css/images/Bell.png-123,200,,Thread Group 1-4,bin,true,,1717,635,2,2,https://advantageonlineshopping.com/css/images/Bell.png,281,0,0
+1666055361093,320,Click Checkout/app/order/views/orderPayment-page.html-122,200,,Thread Group 1-5,text,true,,1372,580,2,2,https://advantageonlineshopping.com/app/order/views/orderPayment-page.html,320,0,0
+1666055361413,64,Click Checkout/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSsQEJ0tKb5yhiIOgSBQ3njUAOEgUNzkFMehIFDXhvEhkSBQ0PFr4rEgUN77-NcxIFDQCgC8oSBQ1zED5aEgUNRS1WTBIFDUZnFX0SBQ2U1FseEgUNbtcpCxIFDYyqZn0SBQ2wnA4MEgUNftzV1BIFDaOKs4QSBQ0ZLMSKEgUNNzxzBBIFDZOoA5USBQ1e6_S9EgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=-128,200,OK,Thread Group 1-5,text,true,,745,884,2,2,https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTA2LjAuNTI0OS4xMTkSsQEJ0tKb5yhiIOgSBQ3njUAOEgUNzkFMehIFDXhvEhkSBQ0PFr4rEgUN77-NcxIFDQCgC8oSBQ1zED5aEgUNRS1WTBIFDUZnFX0SBQ2U1FseEgUNbtcpCxIFDYyqZn0SBQ2wnA4MEgUNftzV1BIFDaOKs4QSBQ0ZLMSKEgUNNzxzBBIFDZOoA5USBQ1e6_S9EgUNn-7I_xIFDZMEC9ASBQ3rSLtwEgUNxlbcmhIFDZ9DYl4=?alt=proto,64,0,0
+1666055361412,306,Click Checkout/accountservice/ws/GetCountriesRequest-124,200,,Thread Group 1-4,text,true,,5004,1161,2,2,https://advantageonlineshopping.com/accountservice/ws/GetCountriesRequest,306,0,0
+1666055361477,257,Click Checkout/css/images/Bell.png-123,200,,Thread Group 1-5,bin,true,,1717,635,2,2,https://advantageonlineshopping.com/css/images/Bell.png,257,0,0
+1666055361719,305,Click Checkout/css/images/Check.png-125,200,,Thread Group 1-4,bin,true,,3547,636,2,2,https://advantageonlineshopping.com/css/images/Check.png,305,0,0
+1666055361735,291,Click Checkout/accountservice/ws/GetCountriesRequest-124,200,,Thread Group 1-5,text,true,,5004,1161,2,2,https://advantageonlineshopping.com/accountservice/ws/GetCountriesRequest,290,0,0
+1666055362027,307,Click Checkout/css/images/Check.png-125,200,,Thread Group 1-5,bin,true,,3547,636,2,2,https://advantageonlineshopping.com/css/images/Check.png,307,0,0
+1666055362026,325,Click Checkout/css/images/User.jpg-126,200,,Thread Group 1-4,bin,true,,5292,619,2,2,https://advantageonlineshopping.com/css/images/User.jpg,325,0,0
+1666055362334,307,Click Checkout/css/images/User.jpg-126,200,,Thread Group 1-5,bin,true,,5292,619,2,2,https://advantageonlineshopping.com/css/images/User.jpg,307,0,0
+1666055362351,291,Click Checkout/css/images/Shipex.png-127,200,,Thread Group 1-4,bin,true,,2588,621,2,2,https://advantageonlineshopping.com/css/images/Shipex.png,290,0,0
+1666055362641,307,Click Checkout/css/images/Shipex.png-127,200,,Thread Group 1-5,bin,true,,2588,621,2,2,https://advantageonlineshopping.com/css/images/Shipex.png,307,0,0
+1666055362642,308,Click Pay Now/accountservice/ws/UpdateSafePayMethodRequest-129,200,,Thread Group 1-4,text,true,,1176,1396,2,2,https://advantageonlineshopping.com/accountservice/ws/UpdateSafePayMethodRequest,308,0,0
+1666055362949,306,Click Pay Now/accountservice/ws/UpdateSafePayMethodRequest-129,200,,Thread Group 1-5,text,true,,1176,1396,2,2,https://advantageonlineshopping.com/accountservice/ws/UpdateSafePayMethodRequest,306,0,0
+1666055362950,534,Click Pay Now/order/api/v1/orders/users/800075438-130,200,,Thread Group 1-4,text,true,,722,1743,2,2,https://advantageonlineshopping.com/order/api/v1/orders/users/417262582,533,0,0
+1666055363255,516,Click Pay Now/order/api/v1/orders/users/800075438-130,200,,Thread Group 1-5,text,true,,721,1743,2,2,https://advantageonlineshopping.com/order/api/v1/orders/users/558222082,516,0,0
+1666055363484,339,Click Pay Now/order/api/v1/carts/800075438-131,200,,Thread Group 1-4,text,true,,626,772,2,2,https://advantageonlineshopping.com/order/api/v1/carts/417262582,339,0,0
+1666055363824,276,Click Pay Now/batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3Dmznc1rypis9v%3D%3D%3D%3D%3D%22&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ-134,200,OK,Thread Group 1-4,text,true,,1413,2953,2,2,https://clients6.google.com/batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3Dmznc1rypis9v%3D%3D%3D%3D%3D%22&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ,276,0,32
+1666055363771,346,Click Pay Now/order/api/v1/carts/800075438-131,200,,Thread Group 1-5,text,true,,626,772,2,2,https://advantageonlineshopping.com/order/api/v1/carts/558222082,346,0,0
+1666055364118,367,Click Pay Now/batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3Dmznc1rypis9v%3D%3D%3D%3D%3D%22&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ-134,200,OK,Thread Group 1-5,text,true,,1481,2953,2,2,https://clients6.google.com/batch/drive/v2internal?%24ct=multipart%2Fmixed%3B%20boundary%3D%22%3D%3D%3D%3D%3Dmznc1rypis9v%3D%3D%3D%3D%3D%22&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ,367,0,56
+1666055364101,386,Click Pay Now/offline/common/serviceworker.js-135,200,OK,Thread Group 1-4,text,true,,2278,695,2,2,https://docs.google.com/offline/common/serviceworker.js?ouid=u3259a141c2399882&oucvi=true,386,0,53
+1666055364487,38,Click Pay Now/static/offline/client/js/2561097574-offline_sw_bin_offline_main.js-136,200,OK,Thread Group 1-4,text,true,,73968,661,2,2,https://docs.google.com/static/offline/client/js/2561097574-offline_sw_bin_offline_main.js,22,0,0
+1666055364486,305,Click Pay Now/offline/common/serviceworker.js-135,200,OK,Thread Group 1-5,text,true,,2276,695,2,2,https://docs.google.com/offline/common/serviceworker.js?ouid=u3259a141c2399882&oucvi=true,305,0,34
+1666055364792,22,Click Pay Now/static/offline/client/js/2561097574-offline_sw_bin_offline_main.js-136,200,OK,Thread Group 1-5,text,true,,73968,661,2,2,https://docs.google.com/static/offline/client/js/2561097574-offline_sw_bin_offline_main.js,10,0,0
+1666055364526,1129,Click P/v3/user/oranonymous?field=frontend_primaryLanguage&field=frontend_soundFluent&field=frontend_role&containerId=ND3BsujF1Vrx-137,200,OK,Thread Group 1-4,text,true,,1796,879,2,2,https://auth.grammarly.com/v3/user/oranonymous?field=frontend_primaryLanguage&field=frontend_soundFluent&field=frontend_role&containerId=ND3BsujF1Vrx,1129,0,880
+1666055364814,1103,Click P/v3/user/oranonymous?field=frontend_primaryLanguage&field=frontend_soundFluent&field=frontend_role&containerId=ND3BsujF1Vrx-137,200,OK,Thread Group 1-5,text,true,,1796,879,2,2,https://auth.grammarly.com/v3/user/oranonymous?field=frontend_primaryLanguage&field=frontend_soundFluent&field=frontend_role&containerId=ND3BsujF1Vrx,1103,0,850
+1666055365655,263,Click Profile/treatment/get-138,200,OK,Thread Group 1-4,text,true,,734,2498,2,2,https://treatment.grammarly.com/treatment/get,263,0,0
+1666055365919,296,Click Profile/treatment/get-139,200,OK,Thread Group 1-4,text,true,,734,2498,2,2,https://treatment.grammarly.com/treatment/get,295,0,0
+1666055365918,298,Click Profile/treatment/get-138,200,OK,Thread Group 1-5,text,true,,734,2498,2,2,https://treatment.grammarly.com/treatment/get,298,0,0
+1666055366225,307,Click Profile/treatment/get-139,200,OK,Thread Group 1-5,text,true,,734,2498,2,2,https://treatment.grammarly.com/treatment/get,307,0,0
+1666055366215,352,Click Logout/accountservice/ws/AccountLogoutRequest-141,200,,Thread Group 1-4,text,true,,1155,1254,2,2,https://advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest,352,0,0
+1666055366532,358,Click Logout/accountservice/ws/AccountLogoutRequest-141,200,,Thread Group 1-5,text,true,,1155,1254,1,1,https://advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest,358,0,0
