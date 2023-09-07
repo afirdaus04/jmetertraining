@@ -201,6 +201,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">tablets</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -277,6 +278,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">headphones</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -353,6 +355,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">mice</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -429,6 +432,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">speakers</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -1598,6 +1602,7 @@
                   <stringProp name="Argument.name">dealOfTheDay</stringProp>
                   <stringProp name="Argument.value">true</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -1881,6 +1886,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">laptops</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -1957,6 +1963,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">headphones</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -2033,6 +2040,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">tablets</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -2109,6 +2117,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">mice</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -2258,6 +2267,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">speakers</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -3866,6 +3876,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">4200</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -3942,6 +3953,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">4700</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -4018,6 +4030,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">4300</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -4094,6 +4107,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">4600</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -4239,6 +4253,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">4400</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -4315,6 +4330,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">4100</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -4391,6 +4407,7 @@
                   <stringProp name="Argument.name">image_id</stringProp>
                   <stringProp name="Argument.value">4500</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -4854,6 +4871,7 @@
                   <stringProp name="Argument.name">alt</stringProp>
                   <stringProp name="Argument.value">proto</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -6013,6 +6031,7 @@
                   <stringProp name="Argument.name">alt</stringProp>
                   <stringProp name="Argument.value">proto</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -6800,12 +6819,14 @@ authorization: SAPISIDHASH 1665988555_ed5ec76fd5e500a8a0b317a82e3b67a20e2a8243_u
                   <stringProp name="Argument.name">ouid</stringProp>
                   <stringProp name="Argument.value">u3259a141c2399882</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
                 <elementProp name="oucvi" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.name">oucvi</stringProp>
                   <stringProp name="Argument.value">true</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
